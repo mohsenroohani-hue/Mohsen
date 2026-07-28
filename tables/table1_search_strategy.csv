@@ -1,0 +1,16 @@
+ID,Query string,Retrieved,Included,Yield (%)
+S01,point pattern analysis spatial point process methods review,20,14,70
+S02,kernel density estimation hotspot mapping crime incidents,20,20,100
+S03,spatial scan statistic disease cluster detection SaTScan,20,20,100
+S04,Ripley's K function spatial pattern forest tree species distribution,20,20,100
+S05,spatio-temporal point process earthquake ETAS self-exciting model,20,19,95
+S06,network constrained point pattern analysis road traffic accidents street network,20,15,75
+S07,log-Gaussian Cox process spatial epidemiology disease risk mapping,20,17,85
+S08,point of interest POI spatial clustering urban vitality retail location,20,12,60
+S09,wildfire ignition point pattern analysis spatial clustering,20,15,75
+S10,archaeological site distribution spatial point pattern analysis settlement,20,15,75
+S11,co-location quotient bivariate marked point pattern cross-K function,19,14,74
+S12,deep learning neural spatio-temporal point process event prediction,19,11,58
+S13,presence-only species distribution model point process MaxEnt sampling bias,20,19,95
+S14,kernel density hotspot analysis health facility disease mapping Africa sub-Saharan GIS,20,12,60
+Total,,278,223,80
