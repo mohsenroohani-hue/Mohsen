@@ -1,0 +1,62 @@
+"# Institutions extracted heuristically from affiliation strings; name variants are NOT disambiguated, so counts are lower bounds. See Section 3.6."
+institution_string,n_studies,pct_of_corpus
+Chinese Academy of Sciences,45,4.9
+Ministry of Education,26,2.8
+University of Chinese Academy of Sciences,18,2.0
+School of Architecture and Urban Planning,13,1.4
+Jiangsu Center for Collaborative Innovation in Geographical Information Resource Development and Application,11,1.2
+School of Architecture,10,1.1
+School of Geography and Planning,9,1.0
+School of Computer Science,8,0.9
+School of Geographical Sciences,8,0.9
+The Hong Kong Polytechnic University,8,0.9
+School of Mathematics and Statistics,8,0.9
+School of Earth Sciences and Engineering,8,0.9
+College of Engineering,7,0.8
+CNRS,7,0.8
+Ministry of Natural Resources,7,0.8
+School of Management,7,0.8
+College of Architecture and Urban Planning,6,0.7
+School of Geography,6,0.7
+University College London,6,0.7
+School of Geosciences,6,0.7
+College of Civil Engineering and Architecture,5,0.5
+College Station,5,0.5
+School of Geography and Ocean Science,5,0.5
+School of Environment and Spatial Informatics,5,0.5
+Collaborative Innovation Center of Geospatial Technology,5,0.5
+College of Civil Engineering,5,0.5
+School of Transportation,5,0.5
+College of Forestry,4,0.4
+School of Transportation Science and Engineering,4,0.4
+Center for Spatial Information Science,4,0.4
+School of Geography and Information Engineering,4,0.4
+School of Geomatics and Urban Spatial Informatics,4,0.4
+College of Earth and Environmental Sciences,4,0.4
+School of Geosciences and Info-Physics,4,0.4
+School of Information Engineering,4,0.4
+School of Earth Sciences,4,0.4
+College of Surveying and Geo-Informatics,4,0.4
+College of Environmental and Resource Sciences,4,0.4
+School of Geographic Science,4,0.4
+School of Traffic and Transportation Engineering,4,0.4
+School of Computer Science and Engineering,3,0.3
+School of Civil Engineering and Transportation,3,0.3
+Navigation College,3,0.3
+College of Environmental Science and Engineering,3,0.3
+School of Economics and Management,3,0.3
+School of Civil and Environmental Engineering,3,0.3
+College of Urban and Environmental Sciences,3,0.3
+School of Transportation Engineering,3,0.3
+Institut Teknologi Sepuluh Nopember,3,0.3
+School of Electrical Engineering,3,0.3
+College of Resource Environment and Tourism,3,0.3
+College Park,3,0.3
+National Engineering Research Center of Geographic Information System,3,0.3
+School of Public Health,3,0.3
+College of Agriculture,3,0.3
+School of Earth and Space Sciences,3,0.3
+School of Civil Engineering,3,0.3
+Ministry of Land and Resources,3,0.3
+School of Water Resources and Environment,3,0.3
+Ministry of Agriculture,3,0.3

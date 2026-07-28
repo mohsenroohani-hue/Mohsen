@@ -1,0 +1,81 @@
+# Country of author affiliation (knowledge production). A study with authors in k countries contributes to all k.
+iso3,country,hemisphere,n_studies,pct_of_corpus,n_2000_2010,n_2011_2020,n_2021_2027
+CHN,China,Global South,382,41.8,5,105,272
+USA,United States,Global North,220,24.1,56,100,64
+GBR,United Kingdom,Global North,59,6.5,7,30,22
+ESP,Spain,Global North,49,5.4,9,23,17
+DEU,Germany,Global North,44,4.8,8,21,15
+CAN,Canada,Global North,41,4.5,9,20,12
+ITA,Italy,Global North,40,4.4,7,16,17
+AUS,Australia,Global North,31,3.4,6,20,5
+NLD,Netherlands,Global North,28,3.1,6,16,6
+FRA,France,Global North,26,2.8,5,12,9
+IRN,Iran,Global South,23,2.5,2,8,13
+TUR,Türkiye,Global South,18,2.0,3,8,7
+HKG,Hong Kong SAR,Global North,17,1.9,0,7,10
+KOR,South Korea,Global North,16,1.8,0,7,9
+CHE,Switzerland,Global North,16,1.8,3,11,2
+SWE,Sweden,Global North,15,1.6,5,9,1
+JPN,Japan,Global North,14,1.5,4,3,7
+BRA,Brazil,Global South,13,1.4,3,4,6
+PRT,Portugal,Global North,12,1.3,1,5,6
+IND,India,Global South,11,1.2,1,3,7
+BEL,Belgium,Global North,11,1.2,1,7,3
+AUT,Austria,Global North,11,1.2,1,7,3
+DNK,Denmark,Global North,10,1.1,1,4,5
+GRC,Greece,Global North,9,1.0,2,6,1
+FIN,Finland,Global North,9,1.0,3,4,2
+SAU,Saudi Arabia,Global South,8,0.9,0,3,5
+POL,Poland,Global North,8,0.9,0,4,4
+COL,Colombia,Global South,7,0.8,0,4,3
+ZAF,South Africa,Global South,7,0.8,1,3,3
+IRL,Ireland,Global North,6,0.7,0,1,5
+MYS,Malaysia,Global South,6,0.7,0,2,4
+ETH,Ethiopia,Global South,6,0.7,0,1,5
+CHL,Chile,Global South,6,0.7,1,1,4
+TWN,Taiwan,Global North,6,0.7,1,3,2
+NOR,Norway,Global North,6,0.7,2,4,0
+NZL,New Zealand,Global North,5,0.5,1,2,2
+LTU,Lithuania,Global North,4,0.4,1,1,2
+IDN,Indonesia,Global South,4,0.4,0,0,4
+THA,Thailand,Global South,3,0.3,0,2,1
+ECU,Ecuador,Global South,3,0.3,0,2,1
+EGY,Egypt,Global South,3,0.3,0,1,2
+RUS,Russia,Global North,3,0.3,1,1,1
+MEX,Mexico,Global South,3,0.3,1,2,0
+SVK,Slovakia,Global North,2,0.2,0,0,2
+MAC,Macao SAR,Global North,2,0.2,0,0,2
+SGP,Singapore,Global North,2,0.2,0,0,2
+MWI,Malawi,Global South,2,0.2,1,0,1
+HUN,Hungary,Global North,2,0.2,0,1,1
+UKR,Ukraine,Global North,2,0.2,0,0,2
+ZMB,Zambia,Global South,2,0.2,0,0,2
+CZE,Czechia,Global North,2,0.2,0,2,0
+CRI,Costa Rica,Global South,2,0.2,1,1,0
+ISR,Israel,Global North,2,0.2,0,2,0
+KAZ,Kazakhstan,Global South,1,0.1,0,0,1
+AZE,Azerbaijan,Global South,1,0.1,0,0,1
+PAK,Pakistan,Global South,1,0.1,0,0,1
+JOR,Jordan,Global South,1,0.1,0,0,1
+BWA,Botswana,Global South,1,0.1,0,0,1
+OMN,Oman,Global South,1,0.1,0,0,1
+KEN,Kenya,Global South,1,0.1,0,0,1
+MNG,Mongolia,Global South,1,0.1,0,0,1
+NPL,Nepal,Global South,1,0.1,0,0,1
+BGD,Bangladesh,Global South,1,0.1,0,0,1
+MDG,Madagascar,Global South,1,0.1,0,0,1
+TZA,Tanzania,Global South,1,0.1,0,0,1
+NGA,Nigeria,Global South,1,0.1,0,0,1
+RWA,Rwanda,Global South,1,0.1,0,0,1
+IRQ,Iraq,Global South,1,0.1,0,1,0
+PAN,Panama,Global South,1,0.1,0,1,0
+HND,Honduras,Global South,1,0.1,0,1,0
+SDN,Sudan,Global South,1,0.1,0,1,0
+VNM,Vietnam,Global South,1,0.1,0,1,0
+ARE,United Arab Emirates,Global South,1,0.1,0,1,0
+JAM,Jamaica,Global South,1,0.1,0,1,0
+AFG,Afghanistan,Global South,1,0.1,0,1,0
+ROU,Romania,Global North,1,0.1,0,1,0
+HRV,Croatia,Global North,1,0.1,1,0,0
+SRB,Serbia,Global North,1,0.1,0,1,0
+CMR,Cameroon,Global South,1,0.1,1,0,0

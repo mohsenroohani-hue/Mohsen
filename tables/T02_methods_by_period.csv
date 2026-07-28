@@ -1,0 +1,24 @@
+"# Method prevalence. Categories are non-exclusive; percentages are shares of studies in the period, not of method mentions."
+method,method_class,2000-2010_n,2000-2010_pct_of_period,2011-2020_n,2011-2020_pct_of_period,2021-2027_n,2021-2027_pct_of_period,total_n,pct_of_corpus
+Kriging and variogram geostatistics,Geostatistical / continuous-field methods,33,30.0,82,24.0,56,12.1,171,18.7
+Kernel density estimation,Classical point-pattern statistics,9,8.2,24,7.0,63,13.6,96,10.5
+Classical machine learning,Learning-based (ML/DL/XAI) methods,2,1.8,17,5.0,71,15.4,90,9.9
+Spatial clustering algorithms,Inferential / model-based spatial statistics,1,0.9,19,5.6,65,14.1,85,9.3
+Point process models (Poisson/Cox/Hawkes),Inferential / model-based spatial statistics,8,7.3,37,10.9,33,7.1,78,8.5
+Spatial autocorrelation statistics,Inferential / model-based spatial statistics,7,6.4,21,6.2,46,10.0,74,8.1
+Deterministic interpolation,Geostatistical / continuous-field methods,9,8.2,29,8.5,23,5.0,61,6.7
+Spatial regression / GWR,Inferential / model-based spatial statistics,3,2.7,15,4.4,32,6.9,50,5.5
+Ripley's K / second-order PPA,Classical point-pattern statistics,10,9.1,22,6.5,15,3.2,47,5.1
+Bayesian hierarchical spatial models,Inferential / model-based spatial statistics,3,2.7,25,7.3,15,3.2,43,4.7
+Deep learning,Learning-based (ML/DL/XAI) methods,1,0.9,6,1.8,33,7.1,40,4.4
+Nearest-neighbour analysis,Classical point-pattern statistics,5,4.5,8,2.3,22,4.8,35,3.8
+Quadrat / intensity analysis,Classical point-pattern statistics,6,5.5,16,4.7,10,2.2,32,3.5
+Getis-Ord hotspot statistics,Inferential / model-based spatial statistics,0,0.0,8,2.3,13,2.8,21,2.3
+Network-constrained point analysis,Network-constrained and graph-based methods,3,2.7,11,3.2,7,1.5,21,2.3
+Space-time scan statistics,Inferential / model-based spatial statistics,4,3.6,11,3.2,5,1.1,20,2.2
+Gaussian processes / NNGP,Geostatistical / continuous-field methods,0,0.0,8,2.3,10,2.2,18,2.0
+Explainable AI / interpretable ML,Learning-based (ML/DL/XAI) methods,0,0.0,0,0.0,10,2.2,10,1.1
+Distributed / high-performance geocomputation,"Real-time, streaming and high-performance geocomputation",0,0.0,2,0.6,3,0.6,5,0.5
+Real-time and streaming spatial analytics,"Real-time, streaming and high-performance geocomputation",0,0.0,0,0.0,4,0.9,4,0.4
+Standard deviational ellipse / centrography,Classical point-pattern statistics,0,0.0,0,0.0,2,0.4,2,0.2
+Geospatial foundation / LLM models,Learning-based (ML/DL/XAI) methods,0,0.0,0,0.0,1,0.2,1,0.1

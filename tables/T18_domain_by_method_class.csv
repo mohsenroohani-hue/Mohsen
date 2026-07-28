@@ -1,0 +1,15 @@
+# Coupling between application domains and method classes.
+application_domain,n_studies,n_CLASSICAL,n_INFERENTIAL,n_GEOSTATISTICAL,n_NETWORK,n_LEARNING,n_REALTIME,pct_CLASSICAL,pct_INFERENTIAL,pct_GEOSTATISTICAL,pct_NETWORK,pct_LEARNING,pct_REALTIME
+Urban studies & planning,368,82,133,62,14,53,3,22.3,36.1,16.8,3.8,14.4,0.8
+Ecology & biodiversity,265,50,94,51,2,66,2,18.9,35.5,19.2,0.8,24.9,0.8
+Transportation & mobility,171,43,71,17,13,17,3,25.1,41.5,9.9,7.6,9.9,1.8
+"Geodesy, remote sensing & earth observation",173,21,55,40,2,37,1,12.1,31.8,23.1,1.2,21.4,0.6
+Environmental monitoring & pollution,133,9,30,53,1,27,2,6.8,22.6,39.8,0.8,20.3,1.5
+Public health & epidemiology,89,25,41,17,2,9,0,28.1,46.1,19.1,2.2,10.1,0.0
+Disaster risk & hazards,86,20,34,18,0,16,1,23.3,39.5,20.9,0.0,18.6,1.2
+Energy & infrastructure,93,14,31,23,3,12,0,15.1,33.3,24.7,3.2,12.9,0.0
+Agriculture & food systems,89,8,27,28,1,10,1,9.0,30.3,31.5,1.1,11.2,1.1
+Retail & economic geography,75,19,26,8,1,10,0,25.3,34.7,10.7,1.3,13.3,0.0
+Tourism & recreation,36,8,17,8,0,8,0,22.2,47.2,22.2,0.0,22.2,0.0
+Social media & digital society,27,5,14,0,0,5,1,18.5,51.9,0.0,0.0,18.5,3.7
+Crime & security,26,8,9,2,1,2,0,30.8,34.6,7.7,3.8,7.7,0.0

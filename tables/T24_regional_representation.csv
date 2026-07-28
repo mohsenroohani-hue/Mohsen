@@ -1,0 +1,9 @@
+# Continental aggregation of affiliation and case-study geography (Natural Earth continents).
+region,n_affiliation_mentions,pct_affiliation,n_case_study_mentions,pct_case_study
+Asia,505,39.9,311,50.2
+Europe,377,29.8,110,17.7
+North America,269,21.3,113,18.2
+Oceania,36,2.8,23,3.7
+South America,29,2.3,20,3.2
+Africa,28,2.2,31,5.0
+Unmapped,21,1.7,12,1.9

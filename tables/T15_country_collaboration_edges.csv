@@ -1,0 +1,266 @@
+# Country-level co-authorship edges derived from affiliation strings. Author-level networks are not derivable from this export (no author field).
+iso3_a,iso3_b,country_a,country_b,n_co_authored,dyad_type
+CHN,USA,China,United States,40,North-South
+CHN,HKG,China,Hong Kong SAR,12,North-South
+DEU,GBR,Germany,United Kingdom,10,North-North
+CHN,GBR,China,United Kingdom,10,North-South
+CAN,USA,Canada,United States,10,North-North
+DEU,USA,Germany,United States,8,North-North
+GBR,USA,United Kingdom,United States,8,North-North
+CAN,CHN,Canada,China,7,North-South
+ESP,ITA,Spain,Italy,6,North-North
+ITA,USA,Italy,United States,6,North-North
+BRA,USA,Brazil,United States,5,North-South
+GBR,NLD,United Kingdom,Netherlands,5,North-North
+CHN,DEU,China,Germany,5,North-South
+KOR,USA,South Korea,United States,5,North-North
+TUR,USA,Türkiye,United States,4,North-South
+ESP,USA,Spain,United States,4,North-North
+GBR,ITA,United Kingdom,Italy,3,North-North
+CHN,ITA,China,Italy,3,North-South
+CHN,NLD,China,Netherlands,3,North-South
+BEL,NLD,Belgium,Netherlands,3,North-North
+SAU,USA,Saudi Arabia,United States,3,North-South
+CHE,DEU,Switzerland,Germany,3,North-North
+IND,USA,India,United States,3,North-South
+ESP,GBR,Spain,United Kingdom,3,North-North
+CHE,FRA,Switzerland,France,3,North-North
+DEU,SWE,Germany,Sweden,3,North-North
+AUS,CHN,Australia,China,3,North-South
+DEU,ESP,Germany,Spain,3,North-North
+DEU,NLD,Germany,Netherlands,3,North-North
+GBR,NOR,United Kingdom,Norway,3,North-North
+AUS,USA,Australia,United States,3,North-North
+DNK,GBR,Denmark,United Kingdom,3,North-North
+FRA,USA,France,United States,3,North-North
+SWE,USA,Sweden,United States,3,North-North
+BRA,DEU,Brazil,Germany,2,North-South
+DEU,DNK,Germany,Denmark,2,North-North
+DNK,USA,Denmark,United States,2,North-North
+CHN,SAU,China,Saudi Arabia,2,South-South
+CHN,MAC,China,Macao SAR,2,North-South
+BEL,CAN,Belgium,Canada,2,North-North
+BEL,DNK,Belgium,Denmark,2,North-North
+CHN,SGP,China,Singapore,2,North-South
+ESP,IDN,Spain,Indonesia,2,North-South
+MWI,USA,Malawi,United States,2,North-South
+FIN,USA,Finland,United States,2,North-North
+GBR,HKG,United Kingdom,Hong Kong SAR,2,North-North
+AUT,DEU,Austria,Germany,2,North-North
+IRL,IRN,Ireland,Iran,2,North-South
+DEU,FIN,Germany,Finland,2,North-North
+GBR,IRN,United Kingdom,Iran,2,North-South
+GBR,IRL,United Kingdom,Ireland,2,North-North
+CHN,JPN,China,Japan,2,North-South
+COL,USA,Colombia,United States,2,North-South
+AUS,NZL,Australia,New Zealand,2,North-North
+COL,ESP,Colombia,Spain,2,North-South
+COL,ITA,Colombia,Italy,2,North-South
+USA,ZAF,United States,South Africa,2,North-South
+ESP,IRN,Spain,Iran,2,North-South
+FIN,SWE,Finland,Sweden,2,North-North
+AUS,DEU,Australia,Germany,2,North-North
+AUS,FRA,Australia,France,2,North-North
+CAN,GBR,Canada,United Kingdom,2,North-North
+ESP,PRT,Spain,Portugal,2,North-North
+CHE,GBR,Switzerland,United Kingdom,2,North-North
+COL,ECU,Colombia,Ecuador,2,South-South
+CRI,USA,Costa Rica,United States,2,North-South
+MEX,USA,Mexico,United States,2,North-South
+NOR,USA,Norway,United States,2,North-North
+CAN,NLD,Canada,Netherlands,2,North-North
+AUT,USA,Austria,United States,2,North-North
+CHE,USA,Switzerland,United States,2,North-North
+BEL,DEU,Belgium,Germany,2,North-North
+AUT,NLD,Austria,Netherlands,2,North-North
+NLD,USA,Netherlands,United States,2,North-North
+GBR,GRC,United Kingdom,Greece,2,North-North
+CHE,SWE,Switzerland,Sweden,2,North-North
+GBR,MYS,United Kingdom,Malaysia,1,North-South
+ITA,MYS,Italy,Malaysia,1,North-South
+BRA,GBR,Brazil,United Kingdom,1,North-South
+AZE,KAZ,Azerbaijan,Kazakhstan,1,South-South
+CHN,JOR,China,Jordan,1,South-South
+CHN,PAK,China,Pakistan,1,South-South
+CHN,SVK,China,Slovakia,1,North-South
+JOR,PAK,Jordan,Pakistan,1,South-South
+JOR,SAU,Jordan,Saudi Arabia,1,South-South
+JOR,SVK,Jordan,Slovakia,1,North-South
+PAK,SAU,Pakistan,Saudi Arabia,1,South-South
+PAK,SVK,Pakistan,Slovakia,1,North-South
+SAU,SVK,Saudi Arabia,Slovakia,1,North-South
+ESP,SWE,Spain,Sweden,1,North-North
+ITA,SWE,Italy,Sweden,1,North-North
+CHN,PRT,China,Portugal,1,North-South
+CAN,DNK,Canada,Denmark,1,North-North
+AUT,CHN,Austria,China,1,North-South
+IDN,JPN,Indonesia,Japan,1,North-South
+MAC,SGP,Macao SAR,Singapore,1,North-North
+BWA,USA,Botswana,United States,1,North-South
+CHL,ESP,Chile,Spain,1,North-South
+CHL,IRN,Chile,Iran,1,South-South
+HKG,KEN,Hong Kong SAR,Kenya,1,North-South
+CHN,MNG,China,Mongolia,1,South-South
+CAN,LTU,Canada,Lithuania,1,North-North
+LTU,USA,Lithuania,United States,1,North-North
+ECU,ESP,Ecuador,Spain,1,North-South
+ECU,IDN,Ecuador,Indonesia,1,South-South
+BGD,GBR,Bangladesh,United Kingdom,1,North-South
+BGD,MWI,Bangladesh,Malawi,1,South-South
+BGD,NPL,Bangladesh,Nepal,1,South-South
+BGD,USA,Bangladesh,United States,1,North-South
+GBR,MWI,United Kingdom,Malawi,1,North-South
+GBR,NPL,United Kingdom,Nepal,1,North-South
+MWI,NPL,Malawi,Nepal,1,South-South
+NPL,USA,Nepal,United States,1,North-South
+ETH,SAU,Ethiopia,Saudi Arabia,1,South-South
+ETH,USA,Ethiopia,United States,1,North-South
+CHE,FIN,Switzerland,Finland,1,North-North
+CHN,IRN,China,Iran,1,South-South
+AUS,IRN,Australia,Iran,1,North-South
+CHL,ITA,Chile,Italy,1,North-South
+ETH,HUN,Ethiopia,Hungary,1,North-South
+IRL,PRT,Ireland,Portugal,1,North-North
+CHN,MDG,China,Madagascar,1,South-South
+BRA,IND,Brazil,India,1,South-South
+CHN,FRA,China,France,1,North-South
+POL,UKR,Poland,Ukraine,1,North-North
+CHL,COL,Chile,Colombia,1,South-South
+CHL,USA,Chile,United States,1,North-South
+CAN,EGY,Canada,Egypt,1,North-South
+CAN,IND,Canada,India,1,North-South
+CAN,SAU,Canada,Saudi Arabia,1,North-South
+EGY,IND,Egypt,India,1,South-South
+EGY,SAU,Egypt,Saudi Arabia,1,South-South
+IND,SAU,India,Saudi Arabia,1,South-South
+BRA,PRT,Brazil,Portugal,1,North-South
+GBR,TZA,United Kingdom,Tanzania,1,North-South
+TZA,USA,Tanzania,United States,1,North-South
+DEU,KOR,Germany,South Korea,1,North-North
+SVK,UKR,Slovakia,Ukraine,1,North-North
+NLD,ZAF,Netherlands,South Africa,1,North-South
+RWA,USA,Rwanda,United States,1,North-South
+RWA,ZAF,Rwanda,South Africa,1,South-South
+RWA,ZMB,Rwanda,Zambia,1,South-South
+USA,ZMB,United States,Zambia,1,North-South
+ZAF,ZMB,South Africa,Zambia,1,South-South
+CAN,IRN,Canada,Iran,1,North-South
+CHN,ESP,China,Spain,1,North-South
+AUS,ESP,Australia,Spain,1,North-North
+FRA,GBR,France,United Kingdom,1,North-North
+PRT,SAU,Portugal,Saudi Arabia,1,North-South
+CHN,ETH,China,Ethiopia,1,South-South
+AUS,NLD,Australia,Netherlands,1,North-North
+AUS,CAN,Australia,Canada,1,North-North
+DEU,ITA,Germany,Italy,1,North-North
+DEU,FRA,Germany,France,1,North-North
+CZE,USA,Czechia,United States,1,North-North
+IRN,SWE,Iran,Sweden,1,North-South
+CHE,THA,Switzerland,Thailand,1,North-South
+FIN,JPN,Finland,Japan,1,North-North
+FIN,NLD,Finland,Netherlands,1,North-North
+JPN,NLD,Japan,Netherlands,1,North-North
+CAN,COL,Canada,Colombia,1,North-South
+CAN,CRI,Canada,Costa Rica,1,North-South
+CAN,ECU,Canada,Ecuador,1,North-South
+CAN,HND,Canada,Honduras,1,North-South
+CAN,MEX,Canada,Mexico,1,North-South
+CAN,PAN,Canada,Panama,1,North-South
+COL,CRI,Colombia,Costa Rica,1,South-South
+COL,HND,Colombia,Honduras,1,South-South
+COL,MEX,Colombia,Mexico,1,South-South
+COL,PAN,Colombia,Panama,1,South-South
+CRI,ECU,Costa Rica,Ecuador,1,South-South
+CRI,HND,Costa Rica,Honduras,1,South-South
+CRI,MEX,Costa Rica,Mexico,1,South-South
+CRI,PAN,Costa Rica,Panama,1,South-South
+ECU,HND,Ecuador,Honduras,1,South-South
+ECU,MEX,Ecuador,Mexico,1,South-South
+ECU,PAN,Ecuador,Panama,1,South-South
+ECU,USA,Ecuador,United States,1,North-South
+HND,MEX,Honduras,Mexico,1,South-South
+HND,PAN,Honduras,Panama,1,South-South
+HND,USA,Honduras,United States,1,North-South
+MEX,PAN,Mexico,Panama,1,South-South
+PAN,USA,Panama,United States,1,North-South
+AUS,HKG,Australia,Hong Kong SAR,1,North-North
+ITA,NZL,Italy,New Zealand,1,North-North
+GBR,ZAF,United Kingdom,South Africa,1,North-South
+GBR,SWE,United Kingdom,Sweden,1,North-North
+ETH,NLD,Ethiopia,Netherlands,1,North-South
+ETH,SDN,Ethiopia,Sudan,1,South-South
+NLD,SDN,Netherlands,Sudan,1,North-South
+CHE,VNM,Switzerland,Vietnam,1,North-South
+CHE,NLD,Switzerland,Netherlands,1,North-North
+ARE,AUS,United Arab Emirates,Australia,1,North-South
+ITA,THA,Italy,Thailand,1,North-South
+CHN,POL,China,Poland,1,North-South
+CAN,HKG,Canada,Hong Kong SAR,1,North-North
+HKG,USA,Hong Kong SAR,United States,1,North-North
+AUT,HUN,Austria,Hungary,1,North-North
+GBR,SAU,United Kingdom,Saudi Arabia,1,North-South
+JAM,SWE,Jamaica,Sweden,1,North-South
+GBR,TWN,United Kingdom,Taiwan,1,North-North
+ITA,NOR,Italy,Norway,1,North-North
+AUT,POL,Austria,Poland,1,North-North
+POL,USA,Poland,United States,1,North-North
+DEU,ISR,Germany,Israel,1,North-North
+DEU,TUR,Germany,Türkiye,1,North-South
+ISR,TUR,Israel,Türkiye,1,North-South
+AFG,USA,Afghanistan,United States,1,North-South
+COL,FRA,Colombia,France,1,North-South
+CHL,DEU,Chile,Germany,1,North-South
+CHL,GBR,Chile,United Kingdom,1,North-South
+DEU,ZAF,Germany,South Africa,1,North-South
+CAN,FRA,Canada,France,1,North-North
+BEL,EGY,Belgium,Egypt,1,North-South
+BEL,ESP,Belgium,Spain,1,North-North
+DEU,EGY,Germany,Egypt,1,North-South
+EGY,ESP,Egypt,Spain,1,North-South
+MYS,TWN,Malaysia,Taiwan,1,North-South
+CHE,PRT,Switzerland,Portugal,1,North-North
+AUT,TUR,Austria,Türkiye,1,North-South
+AUT,ITA,Austria,Italy,1,North-North
+AUT,LTU,Austria,Lithuania,1,North-North
+ITA,LTU,Italy,Lithuania,1,North-North
+ITA,NLD,Italy,Netherlands,1,North-North
+LTU,NLD,Lithuania,Netherlands,1,North-North
+BEL,FRA,Belgium,France,1,North-North
+FRA,ISR,France,Israel,1,North-North
+FRA,ITA,France,Italy,1,North-North
+ISR,ITA,Israel,Italy,1,North-North
+ISR,USA,Israel,United States,1,North-North
+IRN,NLD,Iran,Netherlands,1,North-South
+ESP,NLD,Spain,Netherlands,1,North-North
+IRN,PRT,Iran,Portugal,1,North-South
+ITA,ROU,Italy,Romania,1,North-North
+NLD,TUR,Netherlands,Türkiye,1,North-South
+BEL,SWE,Belgium,Sweden,1,North-North
+ESP,NZL,Spain,New Zealand,1,North-North
+ESP,TUR,Spain,Türkiye,1,North-South
+CAN,DEU,Canada,Germany,1,North-North
+MWI,ZAF,Malawi,South Africa,1,South-South
+RUS,SWE,Russia,Sweden,1,North-North
+AUT,BEL,Austria,Belgium,1,North-North
+AUT,GBR,Austria,United Kingdom,1,North-North
+AUT,GRC,Austria,Greece,1,North-North
+BEL,GBR,Belgium,United Kingdom,1,North-North
+BEL,GRC,Belgium,Greece,1,North-North
+DEU,GRC,Germany,Greece,1,North-North
+GRC,NLD,Greece,Netherlands,1,North-North
+ESP,FIN,Spain,Finland,1,North-North
+CAN,JPN,Canada,Japan,1,North-North
+BEL,USA,Belgium,United States,1,North-North
+ESP,MEX,Spain,Mexico,1,North-South
+ITA,MEX,Italy,Mexico,1,North-South
+HRV,NLD,Croatia,Netherlands,1,North-North
+BRA,ITA,Brazil,Italy,1,North-South
+NLD,SRB,Netherlands,Serbia,1,North-North
+CAN,MYS,Canada,Malaysia,1,North-South
+CHN,MYS,China,Malaysia,1,South-South
+GBR,NZL,United Kingdom,New Zealand,1,North-North
+LTU,NOR,Lithuania,Norway,1,North-North
+AUS,JPN,Australia,Japan,1,North-North
+CAN,ESP,Canada,Spain,1,North-North
+CMR,NLD,Cameroon,Netherlands,1,North-South
+CHE,ESP,Switzerland,Spain,1,North-North

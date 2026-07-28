@@ -1,0 +1,8 @@
+# Level-1 classes of the PBSA method taxonomy.
+class_code,class_label,2000-2010_n,2000-2010_pct_of_period,2011-2020_n,2011-2020_pct_of_period,2021-2027_n,2021-2027_pct_of_period
+CLASSICAL,Classical point-pattern statistics,26,23.6,62,18.2,93,20.1
+INFERENTIAL,Inferential / model-based spatial statistics,22,20.0,109,32.0,188,40.7
+GEOSTATISTICAL,Geostatistical / continuous-field methods,37,33.6,102,29.9,80,17.3
+NETWORK,Network-constrained and graph-based methods,3,2.7,11,3.2,7,1.5
+LEARNING,Learning-based (ML/DL/XAI) methods,3,2.7,21,6.2,99,21.4
+REALTIME,"Real-time, streaming and high-performance geocomputation",0,0.0,2,0.6,7,1.5

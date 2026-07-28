@@ -1,0 +1,32 @@
+{
+  "identification": {
+    "records_identified_scopus": 5713,
+    "export_date": "2026-07-28",
+    "duplicates_removed_doi": 0,
+    "duplicates_removed_title": 1,
+    "records_after_deduplication": 5712
+  },
+  "screening": {
+    "records_screened": 5712,
+    "excluded_total": 4799,
+    "exclusion_reasons": {
+      "included": 913,
+      "S4b_sensor_processing_tradition": 180,
+      "S5_no_point_referenced_units": 3374,
+      "S6_no_spatial_analytical_operation": 1149,
+      "S8_polysemous_point_only": 22,
+      "S4a_outside_geographic_boundary": 66,
+      "S2_no_usable_abstract": 3,
+      "S7_out_of_scope_tradition": 1,
+      "S3_non_research_item": 4
+    }
+  },
+  "included": {
+    "studies_included": 913,
+    "inclusion_rate": 0.1598
+  },
+  "year_range_included": [
+    2000,
+    2026
+  ]
+}

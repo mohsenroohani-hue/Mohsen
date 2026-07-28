@@ -1,0 +1,6 @@
+temporal_scale,2000-2010_n,2000-2010_pct_of_period,2011-2020_n,2011-2020_pct_of_period,2021-2027_n,2021-2027_pct_of_period,total_n,pct_of_corpus
+Daily to monthly,12,10.9,33,9.7,38,8.2,83,9.1
+Annual to decadal,11,10.0,28,8.2,39,8.4,78,8.5
+Sub-daily / real-time,1,0.9,11,3.2,13,2.8,25,2.7
+Multi-decadal / historical,2,1.8,5,1.5,4,0.9,11,1.2
+Cross-sectional / static,1,0.9,6,1.8,2,0.4,9,1.0

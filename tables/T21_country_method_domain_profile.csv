@@ -1,0 +1,27 @@
+# Methodological and thematic profile of the 25 most productive affiliation countries.
+iso3,country,hemisphere,n_studies,pct_CLASSICAL,pct_INFERENTIAL,pct_GEOSTATISTICAL,pct_NETWORK,pct_LEARNING,pct_REALTIME,dominant_domain,domain_shannon_diversity
+CHN,China,Global South,382,20.7,38.0,16.2,3.1,18.3,1.3,Urban studies & planning,2.211
+USA,United States,Global North,220,24.5,37.3,25.0,1.4,9.1,0.9,Ecology & biodiversity,2.308
+GBR,United Kingdom,Global North,59,22.0,37.3,18.6,1.7,13.6,0.0,Ecology & biodiversity,2.262
+ESP,Spain,Global North,49,22.4,26.5,24.5,4.1,8.2,2.0,Ecology & biodiversity,2.173
+DEU,Germany,Global North,44,15.9,25.0,15.9,0.0,11.4,0.0,Ecology & biodiversity,2.146
+CAN,Canada,Global North,41,34.1,36.6,19.5,2.4,7.3,0.0,Transportation & mobility,2.295
+ITA,Italy,Global North,40,20.0,25.0,40.0,2.5,10.0,0.0,Ecology & biodiversity,2.284
+AUS,Australia,Global North,31,19.4,29.0,29.0,3.2,3.2,0.0,Urban studies & planning,2.177
+NLD,Netherlands,Global North,28,10.7,32.1,17.9,0.0,10.7,0.0,Ecology & biodiversity,2.045
+FRA,France,Global North,26,19.2,26.9,34.6,0.0,11.5,0.0,Ecology & biodiversity,1.872
+IRN,Iran,Global South,23,4.3,30.4,43.5,4.3,30.4,0.0,"Geodesy, remote sensing & earth observation",2.031
+TUR,Türkiye,Global South,18,11.1,27.8,44.4,5.6,0.0,0.0,Urban studies & planning,2.046
+HKG,Hong Kong SAR,Global North,17,11.8,29.4,17.6,17.6,17.6,0.0,Urban studies & planning,1.834
+KOR,South Korea,Global North,16,0.0,50.0,43.8,0.0,25.0,0.0,Environmental monitoring & pollution,1.878
+CHE,Switzerland,Global North,16,18.8,25.0,31.2,0.0,0.0,0.0,Ecology & biodiversity,2.051
+SWE,Sweden,Global North,15,40.0,20.0,46.7,0.0,13.3,0.0,Public health & epidemiology,1.698
+JPN,Japan,Global North,14,21.4,42.9,7.1,7.1,7.1,0.0,Urban studies & planning,2.304
+BRA,Brazil,Global South,13,15.4,46.2,23.1,0.0,0.0,0.0,Ecology & biodiversity,1.952
+PRT,Portugal,Global North,12,16.7,58.3,50.0,0.0,8.3,0.0,Ecology & biodiversity,2.042
+IND,India,Global South,11,9.1,45.5,36.4,9.1,27.3,0.0,Urban studies & planning,2.201
+BEL,Belgium,Global North,11,18.2,9.1,36.4,0.0,9.1,0.0,Ecology & biodiversity,1.767
+AUT,Austria,Global North,11,18.2,9.1,27.3,9.1,0.0,0.0,Urban studies & planning,1.957
+DNK,Denmark,Global North,10,20.0,30.0,30.0,0.0,10.0,0.0,Environmental monitoring & pollution,1.784
+GRC,Greece,Global North,9,11.1,33.3,44.4,0.0,11.1,11.1,Environmental monitoring & pollution,1.672
+FIN,Finland,Global North,9,55.6,22.2,33.3,0.0,0.0,0.0,Ecology & biodiversity,1.421

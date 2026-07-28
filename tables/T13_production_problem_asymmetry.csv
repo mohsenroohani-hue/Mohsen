@@ -1,0 +1,44 @@
+# Production-to-problem ratio > 1 indicates a country that produces more point-based spatial analysis than it is the subject of; < 1 indicates the reverse.
+iso3,country,hemisphere,n_as_affiliation,n_as_case_study,production_to_problem_ratio,n_domestic_studies,n_externally_authored_studies,pct_domestic
+CHN,China,Global South,382,247,1.55,239,5,98.0
+USA,United States,Global North,220,92,2.39,70,13,84.3
+GBR,United Kingdom,Global North,59,11,5.36,6,4,60.0
+ESP,Spain,Global North,49,16,3.06,16,0,100.0
+CAN,Canada,Global North,41,15,2.73,13,1,92.9
+DEU,Germany,Global North,44,10,4.4,8,0,100.0
+AUS,Australia,Global North,31,21,1.48,16,4,80.0
+ITA,Italy,Global North,40,10,4.0,10,0,100.0
+IRN,Iran,Global South,23,17,1.35,15,1,93.8
+FRA,France,Global North,26,10,2.6,10,0,100.0
+NLD,Netherlands,Global North,28,4,7.0,4,0,100.0
+TUR,Türkiye,Global South,18,6,3.0,4,0,100.0
+HKG,Hong Kong SAR,Global North,17,6,2.83,1,2,33.3
+BRA,Brazil,Global South,13,10,1.3,6,3,66.7
+KOR,South Korea,Global North,16,6,2.67,6,0,100.0
+CHE,Switzerland,Global North,16,4,4.0,2,2,50.0
+SWE,Sweden,Global North,15,5,3.0,5,0,100.0
+IND,India,Global South,11,9,1.22,8,0,100.0
+JPN,Japan,Global North,14,5,2.8,5,0,100.0
+PRT,Portugal,Global North,12,7,1.71,7,0,100.0
+DNK,Denmark,Global North,10,7,1.43,6,0,100.0
+AUT,Austria,Global North,11,3,3.67,3,0,100.0
+GRC,Greece,Global North,9,4,2.25,3,1,75.0
+BEL,Belgium,Global North,11,2,5.5,2,0,100.0
+FIN,Finland,Global North,9,3,3.0,2,1,66.7
+TWN,Taiwan,Global North,6,5,1.2,4,0,100.0
+COL,Colombia,Global South,7,4,1.75,3,0,100.0
+POL,Poland,Global North,8,3,2.67,3,0,100.0
+ETH,Ethiopia,Global South,6,4,1.5,4,0,100.0
+ZAF,South Africa,Global South,7,3,2.33,2,1,66.7
+SAU,Saudi Arabia,Global South,8,1,8.0,1,0,100.0
+IDN,Indonesia,Global South,4,4,1.0,2,1,66.7
+MYS,Malaysia,Global South,6,2,3.0,2,0,100.0
+LTU,Lithuania,Global North,4,3,1.33,3,0,100.0
+NZL,New Zealand,Global North,5,2,2.5,1,1,50.0
+MAC,Macao SAR,Global North,2,4,0.5,0,0,
+NOR,Norway,Global North,6,0,,0,0,
+ECU,Ecuador,Global South,3,3,1.0,2,1,66.7
+IRL,Ireland,Global North,6,0,,0,0,
+CHL,Chile,Global South,6,0,,0,0,
+MNG,Mongolia,Global South,1,4,0.25,1,2,33.3
+MEX,Mexico,Global South,3,2,1.5,0,1,0.0

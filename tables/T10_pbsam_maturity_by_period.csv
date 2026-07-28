@@ -1,0 +1,5 @@
+"# PB-SAM is an abstract-level proxy for methodological maturity, not a full-text quality appraisal."
+period,n,mean_PBSAM_0_10,D1_method_specification,D2_uncertainty,D3_validation,D4_data_transparency,D5_reproducibility,pct_level1_emergent_0_3,pct_level2_consolidating_4_6,pct_level3_mature_7_10
+2000-2010,110,1.51,0.9,0.05,0.2,0.35,0.01,97.3,2.7,0.0
+2011-2020,341,1.76,0.98,0.08,0.16,0.5,0.05,93.8,6.2,0.0
+2021-2027,462,2.11,1.07,0.06,0.18,0.75,0.05,87.7,12.3,0.0

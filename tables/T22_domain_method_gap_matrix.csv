@@ -1,0 +1,80 @@
+# Cells flagged 'empty' or 'thin' identify method-application combinations that the corpus barely covers.
+application_domain,domain_n,method_class,n,pct_of_domain,gap_status
+Public health & epidemiology,89,Classical point-pattern statistics,25,28.1,populated
+Public health & epidemiology,89,Inferential / model-based spatial statistics,41,46.1,populated
+Public health & epidemiology,89,Geostatistical / continuous-field methods,17,19.1,populated
+Public health & epidemiology,89,Network-constrained and graph-based methods,2,2.2,thin
+Public health & epidemiology,89,Learning-based (ML/DL/XAI) methods,9,10.1,populated
+Public health & epidemiology,89,"Real-time, streaming and high-performance geocomputation",0,0.0,empty
+Crime & security,26,Classical point-pattern statistics,8,30.8,populated
+Crime & security,26,Inferential / model-based spatial statistics,9,34.6,populated
+Crime & security,26,Geostatistical / continuous-field methods,2,7.7,thin
+Crime & security,26,Network-constrained and graph-based methods,1,3.8,thin
+Crime & security,26,Learning-based (ML/DL/XAI) methods,2,7.7,thin
+Crime & security,26,"Real-time, streaming and high-performance geocomputation",0,0.0,empty
+Transportation & mobility,171,Classical point-pattern statistics,43,25.1,populated
+Transportation & mobility,171,Inferential / model-based spatial statistics,71,41.5,populated
+Transportation & mobility,171,Geostatistical / continuous-field methods,17,9.9,thin
+Transportation & mobility,171,Network-constrained and graph-based methods,13,7.6,thin
+Transportation & mobility,171,Learning-based (ML/DL/XAI) methods,17,9.9,thin
+Transportation & mobility,171,"Real-time, streaming and high-performance geocomputation",3,1.8,thin
+Urban studies & planning,368,Classical point-pattern statistics,82,22.3,populated
+Urban studies & planning,368,Inferential / model-based spatial statistics,133,36.1,populated
+Urban studies & planning,368,Geostatistical / continuous-field methods,62,16.8,populated
+Urban studies & planning,368,Network-constrained and graph-based methods,14,3.8,thin
+Urban studies & planning,368,Learning-based (ML/DL/XAI) methods,53,14.4,populated
+Urban studies & planning,368,"Real-time, streaming and high-performance geocomputation",3,0.8,thin
+Environmental monitoring & pollution,133,Classical point-pattern statistics,9,6.8,thin
+Environmental monitoring & pollution,133,Inferential / model-based spatial statistics,30,22.6,populated
+Environmental monitoring & pollution,133,Geostatistical / continuous-field methods,53,39.8,populated
+Environmental monitoring & pollution,133,Network-constrained and graph-based methods,1,0.8,thin
+Environmental monitoring & pollution,133,Learning-based (ML/DL/XAI) methods,27,20.3,populated
+Environmental monitoring & pollution,133,"Real-time, streaming and high-performance geocomputation",2,1.5,thin
+Ecology & biodiversity,265,Classical point-pattern statistics,50,18.9,populated
+Ecology & biodiversity,265,Inferential / model-based spatial statistics,94,35.5,populated
+Ecology & biodiversity,265,Geostatistical / continuous-field methods,51,19.2,populated
+Ecology & biodiversity,265,Network-constrained and graph-based methods,2,0.8,thin
+Ecology & biodiversity,265,Learning-based (ML/DL/XAI) methods,66,24.9,populated
+Ecology & biodiversity,265,"Real-time, streaming and high-performance geocomputation",2,0.8,thin
+Disaster risk & hazards,86,Classical point-pattern statistics,20,23.3,populated
+Disaster risk & hazards,86,Inferential / model-based spatial statistics,34,39.5,populated
+Disaster risk & hazards,86,Geostatistical / continuous-field methods,18,20.9,populated
+Disaster risk & hazards,86,Network-constrained and graph-based methods,0,0.0,empty
+Disaster risk & hazards,86,Learning-based (ML/DL/XAI) methods,16,18.6,populated
+Disaster risk & hazards,86,"Real-time, streaming and high-performance geocomputation",1,1.2,thin
+Agriculture & food systems,89,Classical point-pattern statistics,8,9.0,thin
+Agriculture & food systems,89,Inferential / model-based spatial statistics,27,30.3,populated
+Agriculture & food systems,89,Geostatistical / continuous-field methods,28,31.5,populated
+Agriculture & food systems,89,Network-constrained and graph-based methods,1,1.1,thin
+Agriculture & food systems,89,Learning-based (ML/DL/XAI) methods,10,11.2,populated
+Agriculture & food systems,89,"Real-time, streaming and high-performance geocomputation",1,1.1,thin
+Retail & economic geography,75,Classical point-pattern statistics,19,25.3,populated
+Retail & economic geography,75,Inferential / model-based spatial statistics,26,34.7,populated
+Retail & economic geography,75,Geostatistical / continuous-field methods,8,10.7,populated
+Retail & economic geography,75,Network-constrained and graph-based methods,1,1.3,thin
+Retail & economic geography,75,Learning-based (ML/DL/XAI) methods,10,13.3,populated
+Retail & economic geography,75,"Real-time, streaming and high-performance geocomputation",0,0.0,empty
+Tourism & recreation,36,Classical point-pattern statistics,8,22.2,populated
+Tourism & recreation,36,Inferential / model-based spatial statistics,17,47.2,populated
+Tourism & recreation,36,Geostatistical / continuous-field methods,8,22.2,populated
+Tourism & recreation,36,Network-constrained and graph-based methods,0,0.0,empty
+Tourism & recreation,36,Learning-based (ML/DL/XAI) methods,8,22.2,populated
+Tourism & recreation,36,"Real-time, streaming and high-performance geocomputation",0,0.0,empty
+Social media & digital society,27,Classical point-pattern statistics,5,18.5,populated
+Social media & digital society,27,Inferential / model-based spatial statistics,14,51.9,populated
+Social media & digital society,27,Geostatistical / continuous-field methods,0,0.0,empty
+Social media & digital society,27,Network-constrained and graph-based methods,0,0.0,empty
+Social media & digital society,27,Learning-based (ML/DL/XAI) methods,5,18.5,populated
+Social media & digital society,27,"Real-time, streaming and high-performance geocomputation",1,3.7,thin
+Energy & infrastructure,93,Classical point-pattern statistics,14,15.1,populated
+Energy & infrastructure,93,Inferential / model-based spatial statistics,31,33.3,populated
+Energy & infrastructure,93,Geostatistical / continuous-field methods,23,24.7,populated
+Energy & infrastructure,93,Network-constrained and graph-based methods,3,3.2,thin
+Energy & infrastructure,93,Learning-based (ML/DL/XAI) methods,12,12.9,populated
+Energy & infrastructure,93,"Real-time, streaming and high-performance geocomputation",0,0.0,empty
+"Geodesy, remote sensing & earth observation",173,Classical point-pattern statistics,21,12.1,populated
+"Geodesy, remote sensing & earth observation",173,Inferential / model-based spatial statistics,55,31.8,populated
+"Geodesy, remote sensing & earth observation",173,Geostatistical / continuous-field methods,40,23.1,populated
+"Geodesy, remote sensing & earth observation",173,Network-constrained and graph-based methods,2,1.2,thin
+"Geodesy, remote sensing & earth observation",173,Learning-based (ML/DL/XAI) methods,37,21.4,populated
+"Geodesy, remote sensing & earth observation",173,"Real-time, streaming and high-performance geocomputation",1,0.6,thin
