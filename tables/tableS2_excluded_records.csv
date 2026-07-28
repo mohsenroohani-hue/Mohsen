@@ -1,0 +1,56 @@
+Authors,Year,Title,Journal,Reason for exclusion
+Diggle PJ,2013,Statistical Analysis of Spatial and Spatio-Temporal Point Patterns,CRC Press,Book/monograph
+"Illian J, Penttinen A, Stoyan H, Stoyan D",2008,Statistical Analysis and Modelling of Spatial Point Patterns,Wiley,Book/monograph
+"Baddeley A, Rubak E, Turner R",2015,Spatial Point Patterns: Methodology and Applications with R,CRC Press,Book/monograph
+"Wiegand T, Moloney KA",2013,Handbook of Spatial Point-Pattern Analysis in Ecology,CRC Press,Book/monograph
+Gomez-Rubio V,2016,Review of Spatial Point Patterns: Methodology and Applications with R,Journal of Statistical Software,Book review
+Bagui S,2005,Combining Pattern Classifiers: Methods and Algorithms,Technometrics,"Off-topic (pattern classification, not spatial point patterns)"
+"Kolev A, Ross GJ",2020,Semiparametric Bayesian Forecasting of Spatial Earthquake Occurrences,arXiv,"Duplicate (preprint of Ross & Kolev 2022, Ann Appl Stat)"
+"Baddeley A, Nair G, Rakshit S, McSwiggan G, Davies TM",2020,Analysing point patterns on networks - A review,Spatial Statistics,Duplicate (already retrieved in S01)
+"Sashinka D, et al",2025,"Identifying road accident hotspots using linear network point processes: a case study in the Kandy police division, Sri Lanka",IRC Open University of Sri Lanka,Conference abstract without full text
+"Clemente GP, et al",2024,Hierarchical spatial network models for road accident risk assessment,Annals of Operations Research,"Areal/segment-level count regression, not point pattern analysis"
+"Duan Y, et al",2025,Analysis of traffic accident characteristics and recovery strategy of urban road network,Journal of Engineering and Applied Science,"Traffic simulation/optimisation, no point pattern analysis"
+"Tao W, et al",2022,Resilience assessment and enhancement of urban road networks subject to traffic accidents: a network-scale optimization strategy,Journal of Intelligent Transportation Systems,"Network resilience optimisation, no point pattern analysis"
+Li Y,2012,Disease Mapping with log Gaussian Cox Processes,University of Toronto (thesis),Doctoral thesis
+"Konstantinoudis G, et al",2018,Towards Continuous Domain Models in Spatial Epidemiology,ISEE Conference Abstracts,Conference abstract; duplicate of Konstantinoudis et al. 2018 (SSTE)
+Ziniti B,2016,Computationally efficient specifications of spatial point process models and spatio-temporal Gaussian models,University of New Hampshire (dissertation),Doctoral dissertation
+"Yao L, et al",2024,Prediction of Commercial Street Location Based on Point of Interest (POI) Big Data and Machine Learning,ISPRS International Journal of Geo-Information,Grid-based ML prediction; no point pattern statistic applied to event locations
+"Wu Y, et al",2025,Study on the Influence of Strip-Shaped Urban Rail Transit Stations on Urban Vitality Distribution Based on Point of Interest Data,Applied Sciences,Areal regression on aggregated POI counts; no point pattern statistic
+"Jiang L, et al",2025,Exploring the Spatial Pattern of Retail Businesses in Chengdu Based on the Coupling of Nighttime Light Image and POI Data,Sustainability,Grid coupling-coordination model; no point pattern statistic
+"Hu H, et al",2025,Evaluation of comprehensive vitality of Shanghai's commercial centers using multi-dimensional geospatial big data,Scientific Reports,PCA/K-means index construction; no point pattern statistic
+Tudor C,2025,A Geospatial Framework for Retail Suitability Modelling and Opportunity Identification in Germany,ISPRS International Journal of Geo-Information,"Analysis conducted on 1 km census grid (areal), not on event locations"
+"Wang M, et al",2025,Assessing urban vitality in high-density cities: a spatial accessibility approach using POI reviews and residential data,Humanities and Social Sciences Communications,Two-step floating catchment area accessibility; no point pattern statistic
+"Liu S, et al",2019,Urban Vitality Area Identification and Pattern Analysis from the Perspective of Time and Space Fusion,Sustainability,Spatiotemporal feature clustering of mobile-phone data; no point pattern statistic
+"Wu S, et al",2025,Planning and layout of tourism and leisure facilities based on POI big data and machine learning,PLOS One,Decision-tree site suitability; no point pattern statistic
+"Nunes A, et al",2026,Wildfire causes in mainland Portugal: Municipal-scale hotspots and non-stationary spatial drivers,Journal of Environmental Management,"Hotspot statistics computed on municipal areal units, not on event locations"
+"Zigner K, et al",2022,Wildfire Risk in the Complex Terrain of the Santa Barbara Wildland-Urban Interface during Extreme Winds,Fire,"Fire-spread simulation; ignition points sampled, not analysed as a point pattern"
+"Arca B, et al",2006,Evaluation of FARSITE simulator in Mediterranean shrubland,Forest Ecology and Management,Record metadata corrupted (indexed abstract duplicated from Mundo et al. 2013)
+"Bugallo M, et al",2025,Pattern recognition and modelling of virulent wildfires in Spain,International Journal of Wildland Fire,"Weekly provincial aggregated modelling, not point pattern analysis"
+"Lim S, et al",2025,A Novel Divergence-Based Approach for Fire Ignition Point Localization Through Smoke Pattern Analysis,IEEE Access,Image processing of smoke fields; not geographic point pattern analysis
+"Hodder I, Orton C",1977,Spatial Analysis in Archaeology,Cambridge University Press,Book/monograph
+"Bilotti G, et al",2024,Correction: Point Pattern Analysis (PPA) as a tool for reproducible archaeological site distribution analyses,PLOS ONE,Correction notice to an already included record
+Casarotto A,2019,Spatial Patterns in Landscape Archaeology: A GIS Procedure to Study Settlement Organization in Early Roman Colonial Territories,Leiden University Press,Book/monograph
+"Weitzel EM, Codding BF",2020,The Ideal Distribution Model and Archaeological Settlement Patterning,Environmental Archaeology,Theoretical review of distribution models; no point pattern statistic
+"Brandolini F, et al",2020,"Investigate human responses to Late-Holocene changes of fluvial landforms through Spatial Point Pattern Analysis (Po Plain, N Italy)",EGU General Assembly,Conference abstract without full text
+Komladzei SC,2021,K(r) function coordinate-based colocalization method,University of New Orleans (thesis),Masters thesis; overlapping content with Liu et al. 2024
+"Ge Y, et al",2021,Computing Co-Location Patterns in Spatial Data with Extended Objects: A Scalable Buffer-Based Approach,IEEE Transactions on Knowledge and Data Engineering,Extended (line/polygon) spatial objects rather than point patterns
+"Andrzejewski W, Boinski P",2025,Co-location pattern mining using approximate Euclidean measure,Information Sciences,No abstract indexed; insufficient information for eligibility assessment
+"Jin C, et al",2024,Top-k Local Co-Location Pattern Mining Based on Weighted Voronoi Diagram,Unknown,No abstract indexed; insufficient information for eligibility assessment
+"Baddeley A, Nair G, Rakshit S, McSwiggan G, Davies TM",2020,Analysing point patterns on networks - A review,Spatial Statistics,Duplicate (already retrieved in S01)
+"Okawa M, et al",2021,Deep Mixture Point Processes: Spatio-Temporal Event Prediction with External Factor,Transactions of the Japanese Society for Artificial Intelligence,"Duplicate (journal version of Okawa et al. 2019, KDD)"
+"Shchur O, et al",2021,Neural Temporal Point Processes: A Review,IJCAI,Purely temporal point processes; no spatial component
+"Lin H, et al",2022,Exploring Generative Neural Temporal Point Process,Transactions on Machine Learning Research,Purely temporal point processes; no spatial component
+"Chen S, et al",2025,Deep Graph Neural Point Process For Learning Temporal Interactive Networks,arXiv,Purely temporal point processes; no spatial component
+"Berghaus D, et al",2025,In-Context Learning of Temporal Point Processes with Foundation Inference Models,arXiv,Purely temporal point processes; no spatial component
+"Bosser T, Taieb SB",2023,On the Predictive Accuracy of Neural Temporal Point Process Models for Continuous-time Event Data,arXiv,Purely temporal point processes; no spatial component
+"Lin H, et al",2025,An Extensive Survey With Empirical Studies on Deep Temporal Point Process,IEEE Transactions on Knowledge and Data Engineering,Purely temporal point processes; no spatial component
+"Zhou W, et al",2023,Intensity-free Convolutional Temporal Point Process: Incorporating Local and Global Event Contexts,arXiv,Purely temporal point processes; no spatial component
+"Sorbe F, et al",2023,Evaluating sampling bias correction methods for invasive species distribution modeling in Maxent,Ecological Informatics,Applied habitat-suitability prediction; no point process formulation or point pattern statistic
+"Maina J, et al",2019,A spatial database of health facilities managed by the public health sector in sub Saharan Africa,Scientific Data,Data descriptor; no point pattern analysis performed
+"Alemu S, et al",2022,How applicable is geospatial analysis in maternal and neonatal health in sub-Saharan Africa? A systematic review,Journal of Global Health,Review of predominantly areal/DHS-cluster analyses; not point pattern methods
+Wairimu KH,2024,Mapping Malaria: Utilizing Geographic Information Systems (GIS) for Spatial Analysis of Transmission Hotspots in West and East Africa,Research Invention Journal of Biological and Applied Sciences,Narrative review without method detail; no point pattern statistic reported
+"Manda S, et al",2020,A Scoping Review of Spatial Analysis Approaches Using Health Survey Data in Sub-Saharan Africa,International Journal of Environmental Research and Public Health,"Predominantly areal/lattice spatial analyses, not point pattern methods"
+"Yourkavitch J, et al",2018,Using geographical analysis to identify child health inequality in sub-Saharan Africa,PLoS ONE,"Subnational areal units (Moran's I/LISA), not point locations"
+"Florio P, et al",2023,Estimating geographic access to healthcare facilities in Sub-Saharan Africa by Degree of Urbanisation,Applied Geography,Travel-time accessibility modelling; no point pattern statistic
+"Juran S, et al",2018,Geospatial mapping of access to timely essential surgery in sub-Saharan Africa,BMJ Global Health,Travel-time accessibility modelling; no point pattern statistic
+"Johnson M, et al",2025,A scoping review of the methods used to estimate health facility catchment populations for child health indicators in sub-Saharan Africa,Population Health Metrics,Catchment-population estimation review; no point pattern statistic

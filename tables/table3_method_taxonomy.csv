@@ -1,0 +1,12 @@
+Method family,Scope,Primary $n$,Any use $n$,\% of studies,Median year,Median cites,\% ST
+Parametric point process models,"Inhomogeneous Poisson, Cox and log-Gaussian Cox, cluster and Gibbs processes; presence-only intensity models",36,73,32.7,2020,24,27
+Kernel density estimation,"Smooths event locations into a continuous intensity surface; planar, adaptive and space--time variants",33,66,29.6,2022,15,41
+Spatio-temporal point processes,Separable and non-separable space--time intensity models; self-exciting Hawkes and ETAS formulations,23,57,25.6,2022,14,98
+Second-order distance statistics,"Ripley's $K$, $L$, pair correlation $g$, and the empty-space $F$, nearest-neighbour $G$ and $J$ functions",31,53,23.8,2018,18,17
+Machine-learning point models,"Neural point processes, density-based clustering, maximum-entropy and ensemble intensity learners",30,51,22.9,2022,26,41
+Co-location and marked patterns,"Cross-$K$, co-location quotient, mark correlation and multitype/bivariate summary functions",10,33,14.8,2019,18,15
+Network-constrained analysis,Density and second-order statistics computed with shortest-path or other network metrics on linear networks,23,29,13.0,2021,25,31
+Local association on points,Getis--Ord $G_i^*$ and local Moran's $I$ applied to event locations or point-derived densities,4,28,12.6,2021,20,25
+Scan statistics,"Kulldorff circular, elliptic and flexibly shaped spatial and space--time scan statistics",25,26,11.7,2020,40,46
+Nearest-neighbour indices,"Average nearest-neighbour ratio, Clark--Evans index and dispersion indices",6,17,7.6,2021,11,24
+Other approaches,"Spectral, tessellation-based, fractal and graph-analytic descriptions of point configurations",2,10,4.5,2021,8,20
