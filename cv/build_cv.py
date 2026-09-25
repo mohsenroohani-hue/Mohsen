@@ -63,7 +63,7 @@ JOURNAL_ARTICLES = [
              "<i>Journal of Transport Geography</i>, 129, 104413."),
     ("2025", f"{ME}, Soltani, A., Nikmard Namin, S., Hatami, Y., &amp; Najafi, P. Explaining "
              "air pollution exceedance days through land use densities. "
-             "<i>Environmental and Sustainability Indicators</i>."),
+             "<i>Environmental and Sustainability Indicators</i>, 26, 100691."),
     ("2025", f"{ME}, Roohani Qadikolaei, F., Soltani, A., Misaghi, M., &amp; Zali, N. Distance "
              "matters: Quantifying the influence of urban land use change and development "
              "proximity on land surface temperature in Sari, Iran. "
