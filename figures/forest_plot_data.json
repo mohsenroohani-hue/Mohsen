@@ -1,0 +1,1380 @@
+{
+ "note": "Traced from the draft forest plot (joint model). Point estimates and CI ends are accurate to about +/-2-3% (log axis, 79 px per doubling). Significance ('sig') was read by eye from filled/hollow markers and is authoritative; where a traced CI end contradicted it by <0.02, that end was nudged across 1 ('adjusted': true). CI ends at the axis limits (0.2 / 5) are clipped. Replace with model output before publication.",
+ "footnote": "Filled = p < 0.05; hollow = n.s.; Fatal uses Firth-penalised Poisson",
+ "panels": {
+  "Intersections": {
+   "Mixed-use buildings": {
+    "Total": {
+     "irr": 1.181,
+     "lo": 0.68,
+     "hi": 2.053,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.642,
+     "lo": 0.839,
+     "hi": 3.212,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.307,
+     "lo": 0.454,
+     "hi": 3.762,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 2.568,
+     "lo": 0.257,
+     "hi": 4.938,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": true,
+     "adjusted": false
+    }
+   },
+   "Gas stations": {
+    "Total": {
+     "irr": 1.161,
+     "lo": 1.054,
+     "hi": 1.278,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.131,
+     "lo": 1.027,
+     "hi": 1.256,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.171,
+     "lo": 1.009,
+     "hi": 1.348,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.267,
+     "lo": 0.974,
+     "hi": 1.649,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Supermarkets": {
+    "Total": {
+     "irr": 1.031,
+     "lo": 0.916,
+     "hi": 1.161,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.031,
+     "lo": 0.9,
+     "hi": 1.181,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.018,
+     "lo": 0.832,
+     "hi": 1.234,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.877,
+     "lo": 0.56,
+     "hi": 1.433,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Regional shopping centers": {
+    "Total": {
+     "irr": 1.371,
+     "lo": 0.908,
+     "hi": 2.071,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.873,
+     "lo": 0.522,
+     "hi": 1.446,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 0.563,
+     "lo": 0.244,
+     "hi": 1.313,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.337,
+     "lo": 0.203,
+     "hi": 4.938,
+     "sig": false,
+     "lo_clipped": true,
+     "hi_clipped": true,
+     "adjusted": false
+    }
+   },
+   "Community shopping centers": {
+    "Total": {
+     "irr": 1.181,
+     "lo": 1.092,
+     "hi": 1.278,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.171,
+     "lo": 1.082,
+     "hi": 1.278,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.176,
+     "lo": 1.036,
+     "hi": 1.348,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.202,
+     "lo": 0.916,
+     "hi": 1.578,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Fast-food restaurants": {
+    "Total": {
+     "irr": 1.092,
+     "lo": 1.027,
+     "hi": 1.192,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.087,
+     "lo": 0.995,
+     "hi": 1.181,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": true
+    },
+    "KSI": {
+     "irr": 1.111,
+     "lo": 0.983,
+     "hi": 1.256,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.478,
+     "lo": 1.171,
+     "hi": 1.864,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Sit-down restaurants": {
+    "Total": {
+     "irr": 0.936,
+     "lo": 0.861,
+     "hi": 1.045,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.004,
+     "lo": 0.9,
+     "hi": 1.121,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 0.924,
+     "lo": 0.775,
+     "hi": 1.101,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.786,
+     "lo": 0.527,
+     "hi": 1.171,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Bars": {
+    "Total": {
+     "irr": 0.835,
+     "lo": 0.586,
+     "hi": 1.181,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.765,
+     "lo": 0.513,
+     "hi": 1.192,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 0.796,
+     "lo": 0.427,
+     "hi": 1.484,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.444,
+     "lo": 0.203,
+     "hi": 2.222,
+     "sig": false,
+     "lo_clipped": true,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Hotels": {
+    "Total": {
+     "irr": 1.151,
+     "lo": 0.991,
+     "hi": 1.324,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.087,
+     "lo": 0.924,
+     "hi": 1.278,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.126,
+     "lo": 0.884,
+     "hi": 1.458,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.936,
+     "lo": 0.509,
+     "hi": 1.738,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Office buildings": {
+    "Total": {
+     "irr": 1.018,
+     "lo": 0.884,
+     "hi": 1.202,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.996,
+     "lo": 0.824,
+     "hi": 1.202,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 0.677,
+     "lo": 0.42,
+     "hi": 0.974,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.418,
+     "lo": 0.203,
+     "hi": 1.141,
+     "sig": false,
+     "lo_clipped": true,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Department / big-box stores": {
+    "Total": {
+     "irr": 1.054,
+     "lo": 0.839,
+     "hi": 1.336,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.027,
+     "lo": 0.782,
+     "hi": 1.336,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.24,
+     "lo": 0.869,
+     "hi": 1.8,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.161,
+     "lo": 0.546,
+     "hi": 2.384,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Banks": {
+    "Total": {
+     "irr": 1.068,
+     "lo": 0.974,
+     "hi": 1.151,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.031,
+     "lo": 0.94,
+     "hi": 1.131,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.068,
+     "lo": 0.995,
+     "hi": 1.141,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": true
+    },
+    "Fatal": {
+     "irr": 0.888,
+     "lo": 0.628,
+     "hi": 1.224,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Auto sales & service": {
+    "Total": {
+     "irr": 1.059,
+     "lo": 1.005,
+     "hi": 1.111,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": true
+    },
+    "KAB": {
+     "irr": 1.04,
+     "lo": 0.957,
+     "hi": 1.073,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.018,
+     "lo": 0.916,
+     "hi": 1.161,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.136,
+     "lo": 0.949,
+     "hi": 1.396,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Repair shops": {
+    "Total": {
+     "irr": 0.912,
+     "lo": 0.645,
+     "hi": 1.278,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.674,
+     "lo": 0.435,
+     "hi": 1.101,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.213,
+     "lo": 0.591,
+     "hi": 2.242,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 2.212,
+     "lo": 0.749,
+     "hi": 4.938,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": true,
+     "adjusted": false
+    }
+   },
+   "Single-tenant retail stores": {
+    "Total": {
+     "irr": 1.063,
+     "lo": 1.005,
+     "hi": 1.092,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": true
+    },
+    "KAB": {
+     "irr": 1.031,
+     "lo": 0.991,
+     "hi": 1.073,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.068,
+     "lo": 0.983,
+     "hi": 1.082,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.171,
+     "lo": 1.054,
+     "hi": 1.301,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Parks & recreation": {
+    "Total": {
+     "irr": 1.187,
+     "lo": 0.974,
+     "hi": 1.371,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.171,
+     "lo": 0.983,
+     "hi": 1.471,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.229,
+     "lo": 0.94,
+     "hi": 1.62,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.936,
+     "lo": 0.532,
+     "hi": 1.649,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Schools": {
+    "Total": {
+     "irr": 0.908,
+     "lo": 0.854,
+     "hi": 1.131,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.983,
+     "lo": 0.832,
+     "hi": 1.161,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.087,
+     "lo": 0.839,
+     "hi": 1.408,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.604,
+     "lo": 0.278,
+     "hi": 1.313,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Hospitals": {},
+   "Industrial": {
+    "Total": {
+     "irr": 0.888,
+     "lo": 0.839,
+     "hi": 0.991,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.961,
+     "lo": 0.846,
+     "hi": 1.027,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 0.936,
+     "lo": 0.81,
+     "hi": 1.082,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.828,
+     "lo": 0.596,
+     "hi": 1.151,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   }
+  },
+  "Segments": {
+   "Mixed-use buildings": {
+    "Total": {
+     "irr": 1.161,
+     "lo": 0.854,
+     "hi": 1.578,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.433,
+     "lo": 1.036,
+     "hi": 2.0,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.022,
+     "lo": 0.612,
+     "hi": 1.723,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 2.373,
+     "lo": 1.267,
+     "hi": 4.444,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Gas stations": {
+    "Total": {
+     "irr": 1.213,
+     "lo": 1.063,
+     "hi": 1.371,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.073,
+     "lo": 0.966,
+     "hi": 1.245,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.116,
+     "lo": 0.94,
+     "hi": 1.336,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.156,
+     "lo": 0.877,
+     "hi": 1.51,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Supermarkets": {
+    "Total": {
+     "irr": 1.151,
+     "lo": 1.018,
+     "hi": 1.267,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.166,
+     "lo": 1.036,
+     "hi": 1.301,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.166,
+     "lo": 0.991,
+     "hi": 1.371,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.414,
+     "lo": 1.073,
+     "hi": 1.864,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Regional shopping centers": {},
+   "Community shopping centers": {
+    "Total": {
+     "irr": 1.045,
+     "lo": 0.991,
+     "hi": 1.121,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.0,
+     "lo": 0.974,
+     "hi": 1.092,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.027,
+     "lo": 0.916,
+     "hi": 1.111,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.92,
+     "lo": 0.81,
+     "hi": 1.009,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Fast-food restaurants": {
+    "Total": {
+     "irr": 1.068,
+     "lo": 1.018,
+     "hi": 1.131,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.045,
+     "lo": 0.957,
+     "hi": 1.063,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 0.987,
+     "lo": 0.908,
+     "hi": 1.111,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.106,
+     "lo": 0.991,
+     "hi": 1.256,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Sit-down restaurants": {
+    "Total": {
+     "irr": 1.004,
+     "lo": 0.966,
+     "hi": 1.054,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.036,
+     "lo": 0.966,
+     "hi": 1.063,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 0.987,
+     "lo": 0.916,
+     "hi": 1.054,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.81,
+     "lo": 0.704,
+     "hi": 0.924,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Bars": {
+    "Total": {
+     "irr": 0.987,
+     "lo": 0.854,
+     "hi": 1.141,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.936,
+     "lo": 0.796,
+     "hi": 1.092,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.009,
+     "lo": 0.839,
+     "hi": 1.256,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.974,
+     "lo": 0.656,
+     "hi": 1.446,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Hotels": {
+    "Total": {
+     "irr": 1.0,
+     "lo": 0.916,
+     "hi": 1.063,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.049,
+     "lo": 0.949,
+     "hi": 1.101,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.009,
+     "lo": 0.908,
+     "hi": 1.171,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.166,
+     "lo": 0.991,
+     "hi": 1.371,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Office buildings": {
+    "Total": {
+     "irr": 0.936,
+     "lo": 0.892,
+     "hi": 1.005,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": true
+    },
+    "KAB": {
+     "irr": 0.953,
+     "lo": 0.884,
+     "hi": 1.018,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 0.904,
+     "lo": 0.81,
+     "hi": 0.974,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.945,
+     "lo": 0.803,
+     "hi": 1.111,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Department / big-box stores": {
+    "Total": {
+     "irr": 1.073,
+     "lo": 0.916,
+     "hi": 1.267,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.022,
+     "lo": 0.854,
+     "hi": 1.224,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.063,
+     "lo": 0.839,
+     "hi": 1.359,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.213,
+     "lo": 0.817,
+     "hi": 1.738,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Banks": {
+    "Total": {
+     "irr": 1.031,
+     "lo": 0.957,
+     "hi": 1.111,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.04,
+     "lo": 0.949,
+     "hi": 1.131,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.004,
+     "lo": 0.966,
+     "hi": 1.101,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.116,
+     "lo": 0.892,
+     "hi": 1.371,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Auto sales & service": {
+    "Total": {
+     "irr": 1.049,
+     "lo": 1.009,
+     "hi": 1.092,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 1.04,
+     "lo": 1.018,
+     "hi": 1.063,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.087,
+     "lo": 1.045,
+     "hi": 1.121,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.092,
+     "lo": 1.045,
+     "hi": 1.131,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Repair shops": {
+    "Total": {
+     "irr": 0.996,
+     "lo": 0.839,
+     "hi": 1.181,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.945,
+     "lo": 0.775,
+     "hi": 1.151,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.213,
+     "lo": 0.832,
+     "hi": 1.42,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.022,
+     "lo": 0.755,
+     "hi": 1.384,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Single-tenant retail stores": {
+    "Total": {
+     "irr": 0.991,
+     "lo": 0.974,
+     "hi": 1.063,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.987,
+     "lo": 0.983,
+     "hi": 1.054,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 1.04,
+     "lo": 0.966,
+     "hi": 1.063,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.004,
+     "lo": 0.983,
+     "hi": 1.036,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Parks & recreation": {
+    "Total": {
+     "irr": 0.991,
+     "lo": 0.869,
+     "hi": 1.121,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.983,
+     "lo": 0.877,
+     "hi": 1.171,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 0.987,
+     "lo": 0.824,
+     "hi": 1.202,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 0.729,
+     "lo": 0.522,
+     "hi": 1.018,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Schools": {
+    "Total": {
+     "irr": 0.92,
+     "lo": 0.854,
+     "hi": 1.045,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.996,
+     "lo": 0.869,
+     "hi": 1.082,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 0.928,
+     "lo": 0.817,
+     "hi": 1.213,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.218,
+     "lo": 0.983,
+     "hi": 1.524,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Hospitals": {
+    "Total": {
+     "irr": 0.692,
+     "lo": 0.532,
+     "hi": 1.151,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.896,
+     "lo": 0.565,
+     "hi": 1.336,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 0.85,
+     "lo": 0.446,
+     "hi": 1.606,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "Fatal": {
+     "irr": 1.068,
+     "lo": 0.34,
+     "hi": 3.356,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   },
+   "Industrial": {
+    "Total": {
+     "irr": 0.966,
+     "lo": 0.924,
+     "hi": 0.991,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KAB": {
+     "irr": 0.966,
+     "lo": 0.94,
+     "hi": 0.991,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    },
+    "KSI": {
+     "irr": 0.961,
+     "lo": 0.932,
+     "hi": 0.995,
+     "sig": true,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": true
+    },
+    "Fatal": {
+     "irr": 1.022,
+     "lo": 0.983,
+     "hi": 1.073,
+     "sig": false,
+     "lo_clipped": false,
+     "hi_clipped": false,
+     "adjusted": false
+    }
+   }
+  }
+ }
+}
