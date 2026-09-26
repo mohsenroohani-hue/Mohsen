@@ -172,11 +172,14 @@ def main(make_layer=intersection_layer, unit="intersections", stem="study_area_m
     y_top = H - top_pad - oh - 0.12
     leg_h = 1.05
     lax = fig.add_axes([ox / W, (y_top - leg_h) / H, ow / W, leg_h / H]); lax.axis("off")
-    lax.legend(handles=handles, loc="upper left", frameon=False, fontsize=7.5,
-               title=f"Land-use context typology ({unit})",
-               title_fontproperties={"weight": "bold", "size": 8},
-               alignment="left", handletextpad=0.5, labelspacing=0.45,
-               borderaxespad=0)
+    if callable(handles):          # layer supplies its own legend (e.g. colour bar)
+        handles(fig, lax)
+    else:
+        lax.legend(handles=handles, loc="upper left", frameon=False, fontsize=7.5,
+                   title=f"Land-use context typology ({unit})",
+                   title_fontproperties={"weight": "bold", "size": 8},
+                   alignment="left", handletextpad=0.5, labelspacing=0.45,
+                   borderaxespad=0)
 
     loc_h = 1.55
     y_loc = y_top - leg_h - 0.08 - loc_h
