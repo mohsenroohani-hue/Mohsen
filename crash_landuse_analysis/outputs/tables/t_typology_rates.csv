@@ -1,0 +1,521 @@
+facility,typology,type,sev,n,crashes,rate
+int,Civic & recreation,ALL,TOT,75,6428,1.4121963350897835
+int,Civic & recreation,ALL,KAB,75,594,0.13049854123262777
+int,Civic & recreation,ALL,KSI,75,145,0.0318557045096482
+int,Civic & recreation,ALL,FAT,75,14,0.0030757231940349984
+int,Civic & recreation,ANGLE,TOT,75,337,0.0740370511706996
+int,Civic & recreation,ANGLE,KAB,75,64,0.014060448887017135
+int,Civic & recreation,ANGLE,KSI,75,14,0.0030757231940349984
+int,Civic & recreation,ANGLE,FAT,75,3,0.0006590835415789282
+int,Civic & recreation,LEFTTURN,TOT,75,588,0.12918037414946992
+int,Civic & recreation,LEFTTURN,KAB,75,127,0.027901203260174628
+int,Civic & recreation,LEFTTURN,KSI,75,31,0.006810529929648925
+int,Civic & recreation,LEFTTURN,FAT,75,2,0.00043938902771928546
+int,Civic & recreation,RIGHTTURN,TOT,75,166,0.036469289300700695
+int,Civic & recreation,RIGHTTURN,KAB,75,7,0.0015378615970174992
+int,Civic & recreation,RIGHTTURN,KSI,75,1,0.00021969451385964273
+int,Civic & recreation,RIGHTTURN,FAT,75,0,0.0
+int,Civic & recreation,REAREND,TOT,75,3183,0.6992876376152428
+int,Civic & recreation,REAREND,KAB,75,199,0.0437192082580689
+int,Civic & recreation,REAREND,KSI,75,40,0.00878778055438571
+int,Civic & recreation,REAREND,FAT,75,1,0.00021969451385964273
+int,Civic & recreation,SIDESWIPE,TOT,75,930,0.20431589788946775
+int,Civic & recreation,SIDESWIPE,KAB,75,23,0.005052973818771783
+int,Civic & recreation,SIDESWIPE,KSI,75,5,0.0010984725692982137
+int,Civic & recreation,SIDESWIPE,FAT,75,0,0.0
+int,Civic & recreation,HEADON,TOT,75,53,0.011643809234561065
+int,Civic & recreation,HEADON,KAB,75,7,0.0015378615970174992
+int,Civic & recreation,HEADON,KSI,75,1,0.00021969451385964273
+int,Civic & recreation,HEADON,FAT,75,0,0.0
+int,Civic & recreation,OFFROAD,TOT,75,182,0.03998440152245498
+int,Civic & recreation,OFFROAD,KAB,75,26,0.0057120573603507115
+int,Civic & recreation,OFFROAD,KSI,75,10,0.0021969451385964274
+int,Civic & recreation,OFFROAD,FAT,75,1,0.00021969451385964273
+int,Civic & recreation,ROLLOVER,TOT,75,34,0.007469613471227853
+int,Civic & recreation,ROLLOVER,KAB,75,7,0.0015378615970174992
+int,Civic & recreation,ROLLOVER,KSI,75,2,0.00043938902771928546
+int,Civic & recreation,ROLLOVER,FAT,75,0,0.0
+int,Civic & recreation,SINGLE,TOT,75,110,0.0241663965245607
+int,Civic & recreation,SINGLE,KAB,75,27,0.005931751874210354
+int,Civic & recreation,SINGLE,KSI,75,8,0.0017575561108771418
+int,Civic & recreation,SINGLE,FAT,75,0,0.0
+int,Civic & recreation,PED,TOT,75,73,0.01603769951175392
+int,Civic & recreation,PED,KAB,75,42,0.009227169582104995
+int,Civic & recreation,PED,KSI,75,21,0.004613584791052497
+int,Civic & recreation,PED,FAT,75,6,0.0013181670831578563
+int,Civic & recreation,BIKE,TOT,75,63,0.013840754373157493
+int,Civic & recreation,BIKE,KAB,75,27,0.005931751874210354
+int,Civic & recreation,BIKE,KSI,75,5,0.0010984725692982137
+int,Civic & recreation,BIKE,FAT,75,0,0.0
+int,Civic & recreation,ALCOHOL,TOT,75,109,0.02394670201070106
+int,Civic & recreation,ALCOHOL,KAB,75,23,0.005052973818771783
+int,Civic & recreation,ALCOHOL,KSI,75,9,0.0019772506247367847
+int,Civic & recreation,ALCOHOL,FAT,75,2,0.00043938902771928546
+int,Industrial & auto-oriented,ALL,TOT,77,6227,1.4429593180327527
+int,Industrial & auto-oriented,ALL,KAB,77,610,0.14135300851131832
+int,Industrial & auto-oriented,ALL,KSI,77,127,0.02942923291956955
+int,Industrial & auto-oriented,ALL,FAT,77,11,0.002548988678072953
+int,Industrial & auto-oriented,ANGLE,TOT,77,356,0.0824945426721792
+int,Industrial & auto-oriented,ANGLE,KAB,77,64,0.014830479581515364
+int,Industrial & auto-oriented,ANGLE,KSI,77,14,0.0032441674084564857
+int,Industrial & auto-oriented,ANGLE,FAT,77,2,0.00046345248692235513
+int,Industrial & auto-oriented,LEFTTURN,TOT,77,637,0.1476096170847701
+int,Industrial & auto-oriented,LEFTTURN,KAB,77,126,0.029197506676108372
+int,Industrial & auto-oriented,LEFTTURN,KSI,77,25,0.005793156086529439
+int,Industrial & auto-oriented,LEFTTURN,FAT,77,1,0.00023172624346117757
+int,Industrial & auto-oriented,RIGHTTURN,TOT,77,141,0.032673400328026035
+int,Industrial & auto-oriented,RIGHTTURN,KAB,77,8,0.0018538099476894205
+int,Industrial & auto-oriented,RIGHTTURN,KSI,77,2,0.00046345248692235513
+int,Industrial & auto-oriented,RIGHTTURN,FAT,77,0,0.0
+int,Industrial & auto-oriented,REAREND,TOT,77,2922,0.6771040833935609
+int,Industrial & auto-oriented,REAREND,KAB,77,196,0.0454183437183908
+int,Industrial & auto-oriented,REAREND,KSI,77,25,0.005793156086529439
+int,Industrial & auto-oriented,REAREND,FAT,77,1,0.00023172624346117757
+int,Industrial & auto-oriented,SIDESWIPE,TOT,77,891,0.2064680829239092
+int,Industrial & auto-oriented,SIDESWIPE,KAB,77,26,0.006024882329990616
+int,Industrial & auto-oriented,SIDESWIPE,KSI,77,5,0.0011586312173058877
+int,Industrial & auto-oriented,SIDESWIPE,FAT,77,1,0.00023172624346117757
+int,Industrial & auto-oriented,HEADON,TOT,77,53,0.01228149090344241
+int,Industrial & auto-oriented,HEADON,KAB,77,2,0.00046345248692235513
+int,Industrial & auto-oriented,HEADON,KSI,77,1,0.00023172624346117757
+int,Industrial & auto-oriented,HEADON,FAT,77,0,0.0
+int,Industrial & auto-oriented,OFFROAD,TOT,77,166,0.03846655641455547
+int,Industrial & auto-oriented,OFFROAD,KAB,77,22,0.005097977356145906
+int,Industrial & auto-oriented,OFFROAD,KSI,77,7,0.0016220837042282429
+int,Industrial & auto-oriented,OFFROAD,FAT,77,0,0.0
+int,Industrial & auto-oriented,ROLLOVER,TOT,77,34,0.007878692277680037
+int,Industrial & auto-oriented,ROLLOVER,KAB,77,5,0.0011586312173058877
+int,Industrial & auto-oriented,ROLLOVER,KSI,77,0,0.0
+int,Industrial & auto-oriented,ROLLOVER,FAT,77,0,0.0
+int,Industrial & auto-oriented,SINGLE,TOT,77,108,0.025026434293807177
+int,Industrial & auto-oriented,SINGLE,KAB,77,29,0.0067200610603741495
+int,Industrial & auto-oriented,SINGLE,KSI,77,8,0.0018538099476894205
+int,Industrial & auto-oriented,SINGLE,FAT,77,1,0.00023172624346117757
+int,Industrial & auto-oriented,PED,TOT,77,98,0.0227091718591954
+int,Industrial & auto-oriented,PED,KAB,77,56,0.012976669633825943
+int,Industrial & auto-oriented,PED,KSI,77,20,0.004634524869223551
+int,Industrial & auto-oriented,PED,FAT,77,3,0.0006951787303835327
+int,Industrial & auto-oriented,BIKE,TOT,77,74,0.01714774201612714
+int,Industrial & auto-oriented,BIKE,KAB,77,42,0.009732502225369458
+int,Industrial & auto-oriented,BIKE,KSI,77,15,0.0034758936519176634
+int,Industrial & auto-oriented,BIKE,FAT,77,2,0.00046345248692235513
+int,Industrial & auto-oriented,ALCOHOL,TOT,77,101,0.02340435058957893
+int,Industrial & auto-oriented,ALCOHOL,KAB,77,20,0.004634524869223551
+int,Industrial & auto-oriented,ALCOHOL,KSI,77,2,0.00046345248692235513
+int,Industrial & auto-oriented,ALCOHOL,FAT,77,0,0.0
+int,Low-intensity frontage,ALL,TOT,93,6073,1.1788166589905062
+int,Low-intensity frontage,ALL,KAB,93,615,0.11937629594585236
+int,Low-intensity frontage,ALL,KSI,93,127,0.024651690382314226
+int,Low-intensity frontage,ALL,FAT,93,17,0.0032998325708609596
+int,Low-intensity frontage,ANGLE,TOT,93,267,0.05182678214234566
+int,Low-intensity frontage,ANGLE,KAB,93,67,0.0130052224851579
+int,Low-intensity frontage,ANGLE,KSI,93,22,0.0042703715622906535
+int,Low-intensity frontage,ANGLE,FAT,93,4,0.0007764311931437552
+int,Low-intensity frontage,LEFTTURN,TOT,93,594,0.11530003218184764
+int,Low-intensity frontage,LEFTTURN,KAB,93,153,0.029698493137748635
+int,Low-intensity frontage,LEFTTURN,KSI,93,35,0.006793772940007858
+int,Low-intensity frontage,LEFTTURN,FAT,93,4,0.0007764311931437552
+int,Low-intensity frontage,RIGHTTURN,TOT,93,167,0.03241600231375178
+int,Low-intensity frontage,RIGHTTURN,KAB,93,13,0.0025234013777172045
+int,Low-intensity frontage,RIGHTTURN,KSI,93,4,0.0007764311931437552
+int,Low-intensity frontage,RIGHTTURN,FAT,93,1,0.0001941077982859388
+int,Low-intensity frontage,REAREND,TOT,93,3239,0.6287151586481557
+int,Low-intensity frontage,REAREND,KAB,93,221,0.04289782342119247
+int,Low-intensity frontage,REAREND,KSI,93,29,0.005629126150292225
+int,Low-intensity frontage,REAREND,FAT,93,1,0.0001941077982859388
+int,Low-intensity frontage,SIDESWIPE,TOT,93,755,0.1465513877058838
+int,Low-intensity frontage,SIDESWIPE,KAB,93,12,0.0023292935794312656
+int,Low-intensity frontage,SIDESWIPE,KSI,93,3,0.0005823233948578164
+int,Low-intensity frontage,SIDESWIPE,FAT,93,0,0.0
+int,Low-intensity frontage,HEADON,TOT,93,80,0.015528623862875105
+int,Low-intensity frontage,HEADON,KAB,93,7,0.0013587545880015717
+int,Low-intensity frontage,HEADON,KSI,93,1,0.0001941077982859388
+int,Low-intensity frontage,HEADON,FAT,93,0,0.0
+int,Low-intensity frontage,OFFROAD,TOT,93,174,0.03377475690175335
+int,Low-intensity frontage,OFFROAD,KAB,93,30,0.005823233948578164
+int,Low-intensity frontage,OFFROAD,KSI,93,9,0.0017469701845734492
+int,Low-intensity frontage,OFFROAD,FAT,93,4,0.0007764311931437552
+int,Low-intensity frontage,ROLLOVER,TOT,93,52,0.010093605510868818
+int,Low-intensity frontage,ROLLOVER,KAB,93,11,0.0021351857811453268
+int,Low-intensity frontage,ROLLOVER,KSI,93,1,0.0001941077982859388
+int,Low-intensity frontage,ROLLOVER,FAT,93,0,0.0
+int,Low-intensity frontage,SINGLE,TOT,93,106,0.020575426618309512
+int,Low-intensity frontage,SINGLE,KAB,93,20,0.003882155965718776
+int,Low-intensity frontage,SINGLE,KSI,93,5,0.000970538991429694
+int,Low-intensity frontage,SINGLE,FAT,93,1,0.0001941077982859388
+int,Low-intensity frontage,PED,TOT,93,36,0.006987880738293797
+int,Low-intensity frontage,PED,KAB,93,21,0.004076263764004715
+int,Low-intensity frontage,PED,KSI,93,4,0.0007764311931437552
+int,Low-intensity frontage,PED,FAT,93,0,0.0
+int,Low-intensity frontage,BIKE,TOT,93,44,0.008540743124581307
+int,Low-intensity frontage,BIKE,KAB,93,27,0.005240910553720348
+int,Low-intensity frontage,BIKE,KSI,93,7,0.0013587545880015717
+int,Low-intensity frontage,BIKE,FAT,93,0,0.0
+int,Low-intensity frontage,ALCOHOL,TOT,93,111,0.021545965609739207
+int,Low-intensity frontage,ALCOHOL,KAB,93,27,0.005240910553720348
+int,Low-intensity frontage,ALCOHOL,KSI,93,9,0.0017469701845734492
+int,Low-intensity frontage,ALCOHOL,FAT,93,3,0.0005823233948578164
+int,Shopping-center / big-box retail,ALL,TOT,114,18256,2.533663660427954
+int,Shopping-center / big-box retail,ALL,KAB,114,1515,0.21025966507166685
+int,Shopping-center / big-box retail,ALL,KSI,114,324,0.04496642342126737
+int,Shopping-center / big-box retail,ALL,FAT,114,33,0.004579913496610566
+int,Shopping-center / big-box retail,ANGLE,TOT,114,948,0.13156842408444896
+int,Shopping-center / big-box retail,ANGLE,KAB,114,144,0.01998507707611883
+int,Shopping-center / big-box retail,ANGLE,KSI,114,41,0.005690195556394945
+int,Shopping-center / big-box retail,ANGLE,FAT,114,3,0.0004163557724191423
+int,Shopping-center / big-box retail,LEFTTURN,TOT,114,1493,0.20720638940725983
+int,Shopping-center / big-box retail,LEFTTURN,KAB,114,303,0.042051933014333374
+int,Shopping-center / big-box retail,LEFTTURN,KSI,114,61,0.008465900705855893
+int,Shopping-center / big-box retail,LEFTTURN,FAT,114,9,0.001249067317257427
+int,Shopping-center / big-box retail,RIGHTTURN,TOT,114,543,0.07536039480786476
+int,Shopping-center / big-box retail,RIGHTTURN,KAB,114,18,0.002498134634514854
+int,Shopping-center / big-box retail,RIGHTTURN,KSI,114,3,0.0004163557724191423
+int,Shopping-center / big-box retail,RIGHTTURN,FAT,114,0,0.0
+int,Shopping-center / big-box retail,REAREND,TOT,114,8866,1.2304700927560386
+int,Shopping-center / big-box retail,REAREND,KAB,114,524,0.07272347491587686
+int,Shopping-center / big-box retail,REAREND,KSI,114,73,0.010131323795532462
+int,Shopping-center / big-box retail,REAREND,FAT,114,3,0.0004163557724191423
+int,Shopping-center / big-box retail,SIDESWIPE,TOT,114,2797,0.3881823651521137
+int,Shopping-center / big-box retail,SIDESWIPE,KAB,114,56,0.007771974418490656
+int,Shopping-center / big-box retail,SIDESWIPE,KSI,114,13,0.0018042083471496166
+int,Shopping-center / big-box retail,SIDESWIPE,FAT,114,2,0.00027757051494609487
+int,Shopping-center / big-box retail,HEADON,TOT,114,161,0.022344426453160638
+int,Shopping-center / big-box retail,HEADON,KAB,114,18,0.002498134634514854
+int,Shopping-center / big-box retail,HEADON,KSI,114,6,0.0008327115448382846
+int,Shopping-center / big-box retail,HEADON,FAT,114,0,0.0
+int,Shopping-center / big-box retail,OFFROAD,TOT,114,391,0.054265035671961545
+int,Shopping-center / big-box retail,OFFROAD,KAB,114,44,0.006106551328814087
+int,Shopping-center / big-box retail,OFFROAD,KSI,114,14,0.001942993604622664
+int,Shopping-center / big-box retail,OFFROAD,FAT,114,1,0.00013878525747304743
+int,Shopping-center / big-box retail,ROLLOVER,TOT,114,92,0.012768243687520364
+int,Shopping-center / big-box retail,ROLLOVER,KAB,114,19,0.0026369198919879012
+int,Shopping-center / big-box retail,ROLLOVER,KSI,114,5,0.0006939262873652372
+int,Shopping-center / big-box retail,ROLLOVER,FAT,114,0,0.0
+int,Shopping-center / big-box retail,SINGLE,TOT,114,259,0.035945381685519286
+int,Shopping-center / big-box retail,SINGLE,KAB,114,63,0.008743471220801989
+int,Shopping-center / big-box retail,SINGLE,KSI,114,16,0.002220564119568759
+int,Shopping-center / big-box retail,SINGLE,FAT,114,2,0.00027757051494609487
+int,Shopping-center / big-box retail,PED,TOT,114,228,0.03164303870385481
+int,Shopping-center / big-box retail,PED,KAB,114,131,0.018180868728969214
+int,Shopping-center / big-box retail,PED,KSI,114,46,0.006384121843760182
+int,Shopping-center / big-box retail,PED,FAT,114,9,0.001249067317257427
+int,Shopping-center / big-box retail,BIKE,TOT,114,143,0.01984629181864578
+int,Shopping-center / big-box retail,BIKE,KAB,114,70,0.009714968023113321
+int,Shopping-center / big-box retail,BIKE,KSI,114,22,0.0030532756644070435
+int,Shopping-center / big-box retail,BIKE,FAT,114,1,0.00013878525747304743
+int,Shopping-center / big-box retail,ALCOHOL,TOT,114,349,0.048436054858093554
+int,Shopping-center / big-box retail,ALCOHOL,KAB,114,74,0.010270109053005511
+int,Shopping-center / big-box retail,ALCOHOL,KSI,114,23,0.003192060921880091
+int,Shopping-center / big-box retail,ALCOHOL,FAT,114,4,0.0005551410298921897
+int,Small retail & services strip,ALL,TOT,130,14293,1.7126169544132333
+int,Small retail & services strip,ALL,KAB,130,1289,0.15445065796114585
+int,Small retail & services strip,ALL,KSI,130,235,0.028158188224103393
+int,Small retail & services strip,ALL,FAT,130,38,0.004553238946876294
+int,Small retail & services strip,ANGLE,TOT,130,785,0.09406033087626027
+int,Small retail & services strip,ANGLE,KAB,130,134,0.016056158391616403
+int,Small retail & services strip,ANGLE,KSI,130,24,0.0028757298611850274
+int,Small retail & services strip,ANGLE,FAT,130,1,0.00011982207754937615
+int,Small retail & services strip,LEFTTURN,TOT,130,1338,0.1603219397610653
+int,Small retail & services strip,LEFTTURN,KAB,130,229,0.027439255758807138
+int,Small retail & services strip,LEFTTURN,KSI,130,37,0.004433416869326918
+int,Small retail & services strip,LEFTTURN,FAT,130,4,0.0004792883101975046
+int,Small retail & services strip,RIGHTTURN,TOT,130,341,0.04085932844433727
+int,Small retail & services strip,RIGHTTURN,KAB,130,22,0.002636085706086275
+int,Small retail & services strip,RIGHTTURN,KSI,130,6,0.0007189324652962569
+int,Small retail & services strip,RIGHTTURN,FAT,130,0,0.0
+int,Small retail & services strip,REAREND,TOT,130,7002,0.8389941870007318
+int,Small retail & services strip,REAREND,KAB,130,438,0.05248206996662675
+int,Small retail & services strip,REAREND,KSI,130,57,0.006829858420314441
+int,Small retail & services strip,REAREND,FAT,130,1,0.00011982207754937615
+int,Small retail & services strip,SIDESWIPE,TOT,130,2056,0.24635419144151735
+int,Small retail & services strip,SIDESWIPE,KAB,130,44,0.00527217141217255
+int,Small retail & services strip,SIDESWIPE,KSI,130,8,0.0009585766203950092
+int,Small retail & services strip,SIDESWIPE,FAT,130,3,0.0003594662326481284
+int,Small retail & services strip,HEADON,TOT,130,138,0.016535446701813908
+int,Small retail & services strip,HEADON,KAB,130,22,0.002636085706086275
+int,Small retail & services strip,HEADON,KSI,130,3,0.0003594662326481284
+int,Small retail & services strip,HEADON,FAT,130,0,0.0
+int,Small retail & services strip,OFFROAD,TOT,130,350,0.04193772714228165
+int,Small retail & services strip,OFFROAD,KAB,130,58,0.006949680497863817
+int,Small retail & services strip,OFFROAD,KSI,130,9,0.0010783986979443854
+int,Small retail & services strip,OFFROAD,FAT,130,2,0.0002396441550987523
+int,Small retail & services strip,ROLLOVER,TOT,130,88,0.0105443428243451
+int,Small retail & services strip,ROLLOVER,KAB,130,15,0.0017973311632406422
+int,Small retail & services strip,ROLLOVER,KSI,130,3,0.0003594662326481284
+int,Small retail & services strip,ROLLOVER,FAT,130,2,0.0002396441550987523
+int,Small retail & services strip,SINGLE,TOT,130,239,0.0286374765343009
+int,Small retail & services strip,SINGLE,KAB,130,72,0.008627189583555083
+int,Small retail & services strip,SINGLE,KSI,130,24,0.0028757298611850274
+int,Small retail & services strip,SINGLE,FAT,130,4,0.0004792883101975046
+int,Small retail & services strip,PED,TOT,130,174,0.02084904149359145
+int,Small retail & services strip,PED,KAB,130,112,0.013420072685530129
+int,Small retail & services strip,PED,KSI,130,46,0.005511815567271303
+int,Small retail & services strip,PED,FAT,130,18,0.0021567973958887708
+int,Small retail & services strip,BIKE,TOT,130,123,0.014738115538573265
+int,Small retail & services strip,BIKE,KAB,130,53,0.006350570110116935
+int,Small retail & services strip,BIKE,KSI,130,6,0.0007189324652962569
+int,Small retail & services strip,BIKE,FAT,130,1,0.00011982207754937615
+int,Small retail & services strip,ALCOHOL,TOT,130,213,0.02552210251801712
+int,Small retail & services strip,ALCOHOL,KAB,130,59,0.007069502575413193
+int,Small retail & services strip,ALCOHOL,KSI,130,17,0.0020369753183393947
+int,Small retail & services strip,ALCOHOL,FAT,130,6,0.0007189324652962569
+seg,Civic & recreation,ALL,TOT,57,4506,196.26573117138727
+seg,Civic & recreation,ALL,KAB,57,569,24.783666452844955
+seg,Civic & recreation,ALL,KSI,57,175,7.622393021525249
+seg,Civic & recreation,ALL,FAT,57,42,1.82937432516606
+seg,Civic & recreation,ANGLE,TOT,57,196,8.537080184108278
+seg,Civic & recreation,ANGLE,KAB,57,30,1.3066959465471857
+seg,Civic & recreation,ANGLE,KSI,57,11,0.4791218470673014
+seg,Civic & recreation,ANGLE,FAT,57,1,0.04355653155157285
+seg,Civic & recreation,LEFTTURN,TOT,57,342,14.896333790637916
+seg,Civic & recreation,LEFTTURN,KAB,57,82,3.571635587228974
+seg,Civic & recreation,LEFTTURN,KSI,57,27,1.176026351892467
+seg,Civic & recreation,LEFTTURN,FAT,57,6,0.2613391893094371
+seg,Civic & recreation,RIGHTTURN,TOT,57,102,4.442766218260431
+seg,Civic & recreation,RIGHTTURN,KAB,57,5,0.21778265775786426
+seg,Civic & recreation,RIGHTTURN,KSI,57,1,0.04355653155157285
+seg,Civic & recreation,RIGHTTURN,FAT,57,0,0.0
+seg,Civic & recreation,REAREND,TOT,57,1955,85.15301918332493
+seg,Civic & recreation,REAREND,KAB,57,177,7.709506084628395
+seg,Civic & recreation,REAREND,KSI,57,33,1.4373655412019042
+seg,Civic & recreation,REAREND,FAT,57,1,0.04355653155157285
+seg,Civic & recreation,SIDESWIPE,TOT,57,589,25.65479708387641
+seg,Civic & recreation,SIDESWIPE,KAB,57,29,1.2631394149956128
+seg,Civic & recreation,SIDESWIPE,KSI,57,5,0.21778265775786426
+seg,Civic & recreation,SIDESWIPE,FAT,57,0,0.0
+seg,Civic & recreation,HEADON,TOT,57,34,1.480922072753477
+seg,Civic & recreation,HEADON,KAB,57,6,0.2613391893094371
+seg,Civic & recreation,HEADON,KSI,57,2,0.0871130631031457
+seg,Civic & recreation,HEADON,FAT,57,1,0.04355653155157285
+seg,Civic & recreation,OFFROAD,TOT,57,235,10.23578491461962
+seg,Civic & recreation,OFFROAD,KAB,57,37,1.6115916674081956
+seg,Civic & recreation,OFFROAD,KSI,57,21,0.91468716258303
+seg,Civic & recreation,OFFROAD,FAT,57,5,0.21778265775786426
+seg,Civic & recreation,ROLLOVER,TOT,57,19,0.8275740994798843
+seg,Civic & recreation,ROLLOVER,KAB,57,6,0.2613391893094371
+seg,Civic & recreation,ROLLOVER,KSI,57,2,0.0871130631031457
+seg,Civic & recreation,ROLLOVER,FAT,57,0,0.0
+seg,Civic & recreation,SINGLE,TOT,57,98,4.268540092054139
+seg,Civic & recreation,SINGLE,KAB,57,34,1.480922072753477
+seg,Civic & recreation,SINGLE,KSI,57,9,0.39200878396415567
+seg,Civic & recreation,SINGLE,FAT,57,1,0.04355653155157285
+seg,Civic & recreation,PED,TOT,57,107,4.660548876018296
+seg,Civic & recreation,PED,KAB,57,71,3.0925137401616727
+seg,Civic & recreation,PED,KSI,57,32,1.3938090096503313
+seg,Civic & recreation,PED,FAT,57,19,0.8275740994798843
+seg,Civic & recreation,BIKE,TOT,57,97,4.224983560502567
+seg,Civic & recreation,BIKE,KAB,57,39,1.6987047305113412
+seg,Civic & recreation,BIKE,KSI,57,16,0.6969045048251656
+seg,Civic & recreation,BIKE,FAT,57,3,0.13066959465471856
+seg,Civic & recreation,ALCOHOL,TOT,57,77,3.3538529294711097
+seg,Civic & recreation,ALCOHOL,KAB,57,22,0.9582436941346028
+seg,Civic & recreation,ALCOHOL,KSI,57,11,0.4791218470673014
+seg,Civic & recreation,ALCOHOL,FAT,57,3,0.13066959465471856
+seg,Industrial & auto-oriented,ALL,TOT,57,4053,209.73911214745976
+seg,Industrial & auto-oriented,ALL,KAB,57,503,26.02979852212491
+seg,Industrial & auto-oriented,ALL,KSI,57,157,8.124609081458471
+seg,Industrial & auto-oriented,ALL,FAT,57,37,1.9147167898978563
+seg,Industrial & auto-oriented,ANGLE,TOT,57,215,11.126057022379435
+seg,Industrial & auto-oriented,ANGLE,KAB,57,37,1.9147167898978563
+seg,Industrial & auto-oriented,ANGLE,KSI,57,8,0.4139928194373743
+seg,Industrial & auto-oriented,ANGLE,FAT,57,2,0.10349820485934358
+seg,Industrial & auto-oriented,LEFTTURN,TOT,57,334,17.284200211510377
+seg,Industrial & auto-oriented,LEFTTURN,KAB,57,70,3.6224371700770255
+seg,Industrial & auto-oriented,LEFTTURN,KSI,57,24,1.241978458312123
+seg,Industrial & auto-oriented,LEFTTURN,FAT,57,4,0.20699640971868716
+seg,Industrial & auto-oriented,RIGHTTURN,TOT,57,96,4.967913833248492
+seg,Industrial & auto-oriented,RIGHTTURN,KAB,57,12,0.6209892291560615
+seg,Industrial & auto-oriented,RIGHTTURN,KSI,57,4,0.20699640971868716
+seg,Industrial & auto-oriented,RIGHTTURN,FAT,57,2,0.10349820485934358
+seg,Industrial & auto-oriented,REAREND,TOT,57,1682,87.04199028670796
+seg,Industrial & auto-oriented,REAREND,KAB,57,141,7.296623442583723
+seg,Industrial & auto-oriented,REAREND,KSI,57,29,1.500723970460482
+seg,Industrial & auto-oriented,REAREND,FAT,57,0,0.0
+seg,Industrial & auto-oriented,SIDESWIPE,TOT,57,558,28.875999155756862
+seg,Industrial & auto-oriented,SIDESWIPE,KAB,57,30,1.5524730728901537
+seg,Industrial & auto-oriented,SIDESWIPE,KSI,57,3,0.15524730728901537
+seg,Industrial & auto-oriented,SIDESWIPE,FAT,57,1,0.05174910242967179
+seg,Industrial & auto-oriented,HEADON,TOT,57,36,1.8629676874681844
+seg,Industrial & auto-oriented,HEADON,KAB,57,3,0.15524730728901537
+seg,Industrial & auto-oriented,HEADON,KSI,57,2,0.10349820485934358
+seg,Industrial & auto-oriented,HEADON,FAT,57,1,0.05174910242967179
+seg,Industrial & auto-oriented,OFFROAD,TOT,57,234,12.1092899685432
+seg,Industrial & auto-oriented,OFFROAD,KAB,57,35,1.8112185850385127
+seg,Industrial & auto-oriented,OFFROAD,KSI,57,17,0.8797347413044204
+seg,Industrial & auto-oriented,OFFROAD,FAT,57,7,0.3622437170077025
+seg,Industrial & auto-oriented,ROLLOVER,TOT,57,16,0.8279856388747486
+seg,Industrial & auto-oriented,ROLLOVER,KAB,57,3,0.15524730728901537
+seg,Industrial & auto-oriented,ROLLOVER,KSI,57,2,0.10349820485934358
+seg,Industrial & auto-oriented,ROLLOVER,FAT,57,0,0.0
+seg,Industrial & auto-oriented,SINGLE,TOT,57,107,5.537153959974882
+seg,Industrial & auto-oriented,SINGLE,KAB,57,27,1.3972257656011384
+seg,Industrial & auto-oriented,SINGLE,KSI,57,10,0.5174910242967179
+seg,Industrial & auto-oriented,SINGLE,FAT,57,2,0.10349820485934358
+seg,Industrial & auto-oriented,PED,TOT,57,83,4.295175501662759
+seg,Industrial & auto-oriented,PED,KAB,57,57,2.949698838491292
+seg,Industrial & auto-oriented,PED,KSI,57,28,1.44897486803081
+seg,Industrial & auto-oriented,PED,FAT,57,14,0.724487434015405
+seg,Industrial & auto-oriented,BIKE,TOT,57,81,4.191677296803415
+seg,Industrial & auto-oriented,BIKE,KAB,57,43,2.2252114044758873
+seg,Industrial & auto-oriented,BIKE,KSI,57,17,0.8797347413044204
+seg,Industrial & auto-oriented,BIKE,FAT,57,4,0.20699640971868716
+seg,Industrial & auto-oriented,ALCOHOL,TOT,57,88,4.5539210138111175
+seg,Industrial & auto-oriented,ALCOHOL,KAB,57,25,1.2937275607417948
+seg,Industrial & auto-oriented,ALCOHOL,KSI,57,13,0.6727383315857333
+seg,Industrial & auto-oriented,ALCOHOL,FAT,57,7,0.3622437170077025
+seg,Low-intensity frontage,ALL,TOT,95,5097,177.7999652409759
+seg,Low-intensity frontage,ALL,KAB,95,630,21.976452442969357
+seg,Low-intensity frontage,ALL,KSI,95,175,6.1045701230470435
+seg,Low-intensity frontage,ALL,FAT,95,35,1.2209140246094088
+seg,Low-intensity frontage,ANGLE,TOT,95,219,7.6394334682703
+seg,Low-intensity frontage,ANGLE,KAB,95,43,1.4999800873772735
+seg,Low-intensity frontage,ANGLE,KSI,95,14,0.4883656098437635
+seg,Low-intensity frontage,ANGLE,FAT,95,2,0.06976651569196621
+seg,Low-intensity frontage,LEFTTURN,TOT,95,443,15.453283225770516
+seg,Low-intensity frontage,LEFTTURN,KAB,95,109,3.802275105212159
+seg,Low-intensity frontage,LEFTTURN,KSI,95,32,1.1162642510714593
+seg,Low-intensity frontage,LEFTTURN,FAT,95,6,0.20929954707589865
+seg,Low-intensity frontage,RIGHTTURN,TOT,95,124,4.325523972901905
+seg,Low-intensity frontage,RIGHTTURN,KAB,95,11,0.3837158363058142
+seg,Low-intensity frontage,RIGHTTURN,KSI,95,2,0.06976651569196621
+seg,Low-intensity frontage,RIGHTTURN,FAT,95,0,0.0
+seg,Low-intensity frontage,REAREND,TOT,95,2459,85.77793104327246
+seg,Low-intensity frontage,REAREND,KAB,95,226,7.883616273192183
+seg,Low-intensity frontage,REAREND,KSI,95,41,1.4302135716853075
+seg,Low-intensity frontage,REAREND,FAT,95,2,0.06976651569196621
+seg,Low-intensity frontage,SIDESWIPE,TOT,95,678,23.650848819576545
+seg,Low-intensity frontage,SIDESWIPE,KAB,95,21,0.7325484147656453
+seg,Low-intensity frontage,SIDESWIPE,KSI,95,10,0.34883257845983107
+seg,Low-intensity frontage,SIDESWIPE,FAT,95,0,0.0
+seg,Low-intensity frontage,HEADON,TOT,95,45,1.5697466030692397
+seg,Low-intensity frontage,HEADON,KAB,95,7,0.24418280492188174
+seg,Low-intensity frontage,HEADON,KSI,95,2,0.06976651569196621
+seg,Low-intensity frontage,HEADON,FAT,95,0,0.0
+seg,Low-intensity frontage,OFFROAD,TOT,95,312,10.88357644794673
+seg,Low-intensity frontage,OFFROAD,KAB,95,65,2.267411759988902
+seg,Low-intensity frontage,OFFROAD,KSI,95,22,0.7674316726116284
+seg,Low-intensity frontage,OFFROAD,FAT,95,9,0.31394932061384795
+seg,Low-intensity frontage,ROLLOVER,TOT,95,28,0.976731219687527
+seg,Low-intensity frontage,ROLLOVER,KAB,95,7,0.24418280492188174
+seg,Low-intensity frontage,ROLLOVER,KSI,95,3,0.10464977353794933
+seg,Low-intensity frontage,ROLLOVER,FAT,95,2,0.06976651569196621
+seg,Low-intensity frontage,SINGLE,TOT,95,114,3.9766913944420743
+seg,Low-intensity frontage,SINGLE,KAB,95,21,0.7325484147656453
+seg,Low-intensity frontage,SINGLE,KSI,95,3,0.10464977353794933
+seg,Low-intensity frontage,SINGLE,FAT,95,0,0.0
+seg,Low-intensity frontage,PED,TOT,95,35,1.2209140246094088
+seg,Low-intensity frontage,PED,KAB,95,29,1.01161447753351
+seg,Low-intensity frontage,PED,KSI,95,16,0.5581321255357297
+seg,Low-intensity frontage,PED,FAT,95,6,0.20929954707589865
+seg,Low-intensity frontage,BIKE,TOT,95,67,2.337178275680868
+seg,Low-intensity frontage,BIKE,KAB,95,37,1.290680540301375
+seg,Low-intensity frontage,BIKE,KSI,95,15,0.5232488676897467
+seg,Low-intensity frontage,BIKE,FAT,95,4,0.13953303138393242
+seg,Low-intensity frontage,ALCOHOL,TOT,95,95,3.313909495368395
+seg,Low-intensity frontage,ALCOHOL,KAB,95,28,0.976731219687527
+seg,Low-intensity frontage,ALCOHOL,KSI,95,18,0.6278986412276959
+seg,Low-intensity frontage,ALCOHOL,FAT,95,7,0.24418280492188174
+seg,"Office, lodging & mixed use",ALL,TOT,39,1921,208.63623559495983
+seg,"Office, lodging & mixed use",ALL,KAB,39,214,23.242141810162106
+seg,"Office, lodging & mixed use",ALL,KSI,39,56,6.082055800790084
+seg,"Office, lodging & mixed use",ALL,FAT,39,10,1.0860813929982291
+seg,"Office, lodging & mixed use",ANGLE,TOT,39,107,11.621070905081053
+seg,"Office, lodging & mixed use",ANGLE,KAB,39,21,2.2807709252962813
+seg,"Office, lodging & mixed use",ANGLE,KSI,39,3,0.32582441789946875
+seg,"Office, lodging & mixed use",ANGLE,FAT,39,0,0.0
+seg,"Office, lodging & mixed use",LEFTTURN,TOT,39,211,22.916317392262638
+seg,"Office, lodging & mixed use",LEFTTURN,KAB,39,37,4.018501154093448
+seg,"Office, lodging & mixed use",LEFTTURN,KSI,39,10,1.0860813929982291
+seg,"Office, lodging & mixed use",LEFTTURN,FAT,39,4,0.4344325571992917
+seg,"Office, lodging & mixed use",RIGHTTURN,TOT,39,40,4.344325571992917
+seg,"Office, lodging & mixed use",RIGHTTURN,KAB,39,3,0.32582441789946875
+seg,"Office, lodging & mixed use",RIGHTTURN,KSI,39,1,0.10860813929982292
+seg,"Office, lodging & mixed use",RIGHTTURN,FAT,39,0,0.0
+seg,"Office, lodging & mixed use",REAREND,TOT,39,779,84.60574051456206
+seg,"Office, lodging & mixed use",REAREND,KAB,39,53,5.756231382890615
+seg,"Office, lodging & mixed use",REAREND,KSI,39,11,1.1946895322980522
+seg,"Office, lodging & mixed use",REAREND,FAT,39,1,0.10860813929982292
+seg,"Office, lodging & mixed use",SIDESWIPE,TOT,39,283,30.736103421849887
+seg,"Office, lodging & mixed use",SIDESWIPE,KAB,39,9,0.9774732536984063
+seg,"Office, lodging & mixed use",SIDESWIPE,KSI,39,1,0.10860813929982292
+seg,"Office, lodging & mixed use",SIDESWIPE,FAT,39,0,0.0
+seg,"Office, lodging & mixed use",HEADON,TOT,39,17,1.8463383680969896
+seg,"Office, lodging & mixed use",HEADON,KAB,39,6,0.6516488357989375
+seg,"Office, lodging & mixed use",HEADON,KSI,39,2,0.21721627859964585
+seg,"Office, lodging & mixed use",HEADON,FAT,39,0,0.0
+seg,"Office, lodging & mixed use",OFFROAD,TOT,39,112,12.164111601580167
+seg,"Office, lodging & mixed use",OFFROAD,KAB,39,14,1.520513950197521
+seg,"Office, lodging & mixed use",OFFROAD,KSI,39,6,0.6516488357989375
+seg,"Office, lodging & mixed use",OFFROAD,FAT,39,1,0.10860813929982292
+seg,"Office, lodging & mixed use",ROLLOVER,TOT,39,12,1.303297671597875
+seg,"Office, lodging & mixed use",ROLLOVER,KAB,39,0,0.0
+seg,"Office, lodging & mixed use",ROLLOVER,KSI,39,0,0.0
+seg,"Office, lodging & mixed use",ROLLOVER,FAT,39,0,0.0
+seg,"Office, lodging & mixed use",SINGLE,TOT,39,55,5.973447661490261
+seg,"Office, lodging & mixed use",SINGLE,KAB,39,14,1.520513950197521
+seg,"Office, lodging & mixed use",SINGLE,KSI,39,4,0.4344325571992917
+seg,"Office, lodging & mixed use",SINGLE,FAT,39,0,0.0
+seg,"Office, lodging & mixed use",PED,TOT,39,35,3.8012848754938022
+seg,"Office, lodging & mixed use",PED,KAB,39,27,2.9324197610952187
+seg,"Office, lodging & mixed use",PED,KSI,39,13,1.411905810897698
+seg,"Office, lodging & mixed use",PED,FAT,39,3,0.32582441789946875
+seg,"Office, lodging & mixed use",BIKE,TOT,39,21,2.2807709252962813
+seg,"Office, lodging & mixed use",BIKE,KAB,39,12,1.303297671597875
+seg,"Office, lodging & mixed use",BIKE,KSI,39,2,0.21721627859964585
+seg,"Office, lodging & mixed use",BIKE,FAT,39,0,0.0
+seg,"Office, lodging & mixed use",ALCOHOL,TOT,39,34,3.692676736193979
+seg,"Office, lodging & mixed use",ALCOHOL,KAB,39,13,1.411905810897698
+seg,"Office, lodging & mixed use",ALCOHOL,KSI,39,4,0.4344325571992917
+seg,"Office, lodging & mixed use",ALCOHOL,FAT,39,1,0.10860813929982292
+seg,Shopping-center / big-box retail,ALL,TOT,86,9332,347.26821004910937
+seg,Shopping-center / big-box retail,ALL,KAB,86,1029,38.29179041368769
+seg,Shopping-center / big-box retail,ALL,KSI,86,256,9.526431823036006
+seg,Shopping-center / big-box retail,ALL,FAT,86,53,1.972269088362923
+seg,Shopping-center / big-box retail,ANGLE,TOT,86,573,21.322833728904808
+seg,Shopping-center / big-box retail,ANGLE,KAB,86,81,3.014222569007486
+seg,Shopping-center / big-box retail,ANGLE,KSI,86,12,0.44655149170481273
+seg,Shopping-center / big-box retail,ANGLE,FAT,86,0,0.0
+seg,Shopping-center / big-box retail,LEFTTURN,TOT,86,959,35.686906712076286
+seg,Shopping-center / big-box retail,LEFTTURN,KAB,86,169,6.288933508176113
+seg,Shopping-center / big-box retail,LEFTTURN,KSI,86,42,1.5629302209668445
+seg,Shopping-center / big-box retail,LEFTTURN,FAT,86,10,0.37212624308734393
+seg,Shopping-center / big-box retail,RIGHTTURN,TOT,86,205,7.628587983290551
+seg,Shopping-center / big-box retail,RIGHTTURN,KAB,86,21,0.7814651104834223
+seg,Shopping-center / big-box retail,RIGHTTURN,KSI,86,3,0.11163787292620318
+seg,Shopping-center / big-box retail,RIGHTTURN,FAT,86,0,0.0
+seg,Shopping-center / big-box retail,REAREND,TOT,86,4062,151.1576799420791
+seg,Shopping-center / big-box retail,REAREND,KAB,86,336,12.503441767734756
+seg,Shopping-center / big-box retail,REAREND,KSI,86,53,1.972269088362923
+seg,Shopping-center / big-box retail,REAREND,FAT,86,3,0.11163787292620318
+seg,Shopping-center / big-box retail,SIDESWIPE,TOT,86,1363,50.72080693280498
+seg,Shopping-center / big-box retail,SIDESWIPE,KAB,86,46,1.7117807182017821
+seg,Shopping-center / big-box retail,SIDESWIPE,KSI,86,9,0.3349136187786096
+seg,Shopping-center / big-box retail,SIDESWIPE,FAT,86,3,0.11163787292620318
+seg,Shopping-center / big-box retail,HEADON,TOT,86,90,3.3491361877860957
+seg,Shopping-center / big-box retail,HEADON,KAB,86,17,0.6326146132484848
+seg,Shopping-center / big-box retail,HEADON,KSI,86,6,0.22327574585240637
+seg,Shopping-center / big-box retail,HEADON,FAT,86,0,0.0
+seg,Shopping-center / big-box retail,OFFROAD,TOT,86,299,11.126574668311584
+seg,Shopping-center / big-box retail,OFFROAD,KAB,86,38,1.4140797237319072
+seg,Shopping-center / big-box retail,OFFROAD,KSI,86,17,0.6326146132484848
+seg,Shopping-center / big-box retail,OFFROAD,FAT,86,3,0.11163787292620318
+seg,Shopping-center / big-box retail,ROLLOVER,TOT,86,32,1.1908039778795008
+seg,Shopping-center / big-box retail,ROLLOVER,KAB,86,4,0.1488504972349376
+seg,Shopping-center / big-box retail,ROLLOVER,KSI,86,2,0.0744252486174688
+seg,Shopping-center / big-box retail,ROLLOVER,FAT,86,1,0.0372126243087344
+seg,Shopping-center / big-box retail,SINGLE,TOT,86,192,7.144823867277004
+seg,Shopping-center / big-box retail,SINGLE,KAB,86,64,2.3816079557590015
+seg,Shopping-center / big-box retail,SINGLE,KSI,86,19,0.7070398618659536
+seg,Shopping-center / big-box retail,SINGLE,FAT,86,5,0.18606312154367197
+seg,Shopping-center / big-box retail,PED,TOT,86,164,6.102870386632441
+seg,Shopping-center / big-box retail,PED,KAB,86,106,3.944538176725846
+seg,Shopping-center / big-box retail,PED,KSI,86,58,2.158332209906595
+seg,Shopping-center / big-box retail,PED,FAT,86,23,0.8558903591008911
+seg,Shopping-center / big-box retail,BIKE,TOT,86,121,4.502727541356862
+seg,Shopping-center / big-box retail,BIKE,KAB,86,65,2.418820580067736
+seg,Shopping-center / big-box retail,BIKE,KSI,86,16,0.5954019889397504
+seg,Shopping-center / big-box retail,BIKE,FAT,86,2,0.0744252486174688
+seg,Shopping-center / big-box retail,ALCOHOL,TOT,86,141,5.24698002753155
+seg,Shopping-center / big-box retail,ALCOHOL,KAB,86,35,1.3024418508057038
+seg,Shopping-center / big-box retail,ALCOHOL,KSI,86,8,0.2977009944698752
+seg,Shopping-center / big-box retail,ALCOHOL,FAT,86,2,0.0744252486174688

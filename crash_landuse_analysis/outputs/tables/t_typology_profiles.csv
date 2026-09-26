@@ -1,0 +1,71 @@
+facility,typology,family,z,mean_count,n
+int,Industrial & auto-oriented,Auto-oriented,0.509337177493697,1.3506493506493507,77
+int,Industrial & auto-oriented,Food & drink,0.253265220860709,0.8051948051948052,77
+int,Industrial & auto-oriented,Retail anchors,-0.42695247595531044,0.18181818181818182,77
+int,Industrial & auto-oriented,Small retail & services,0.2805809402579332,2.456103896103896,77
+int,Industrial & auto-oriented,"Office, lodging & mixed use",0.13334740388312047,1.8976623376623378,77
+int,Industrial & auto-oriented,Civic & recreation,-0.22867005946581417,0.09090909090909091,77
+int,Industrial & auto-oriented,Industrial,2.0344708859778184,1.4935064935064934,77
+int,Small retail & services strip,Auto-oriented,-0.0331321699194265,0.7230769230769231,130
+int,Small retail & services strip,Food & drink,0.21695876280429383,0.7692307692307693,130
+int,Small retail & services strip,Retail anchors,-0.5738310972969329,0.07692307692307693,130
+int,Small retail & services strip,Small retail & services,0.6437349680574844,3.195076923076923,130
+int,Small retail & services strip,"Office, lodging & mixed use",0.4374653128255205,3.149846153846154,130
+int,Small retail & services strip,Civic & recreation,-0.4408703395130631,0.0,130
+int,Small retail & services strip,Industrial,-0.46443609868669705,0.0,130
+int,Shopping-center / big-box retail,Auto-oriented,0.2581807394584164,0.9649122807017544,114
+int,Shopping-center / big-box retail,Food & drink,0.31333472530087914,0.8333333333333334,114
+int,Shopping-center / big-box retail,Retail anchors,1.3837838433005367,1.7719298245614035,114
+int,Shopping-center / big-box retail,Small retail & services,0.2593050184524046,2.387017543859649,114
+int,Shopping-center / big-box retail,"Office, lodging & mixed use",-0.33655284429723614,0.6578947368421053,114
+int,Shopping-center / big-box retail,Civic & recreation,-0.42039487389446895,0.008771929824561403,114
+int,Shopping-center / big-box retail,Industrial,-0.4298237761619738,0.017543859649122806,114
+int,Civic & recreation,Auto-oriented,-0.11922506022578938,0.6266666666666667,75
+int,Civic & recreation,Food & drink,-0.2701850350680486,0.3466666666666667,75
+int,Civic & recreation,Retail anchors,-0.1084203320970831,0.48,75
+int,Civic & recreation,Small retail & services,-0.31075559735956315,1.5066666666666666,75
+int,Civic & recreation,"Office, lodging & mixed use",-0.0691369916883763,1.56,75
+int,Civic & recreation,Civic & recreation,2.1846226121900036,1.2133333333333334,75
+int,Civic & recreation,Industrial,-0.13338406509895032,0.17333333333333334,75
+int,Low-intensity frontage,Auto-oriented,-0.5957258640732741,0.23655913978494625,93
+int,Low-intensity frontage,Food & drink,-0.6791649701616062,0.06451612903225806,93
+int,Low-intensity frontage,Retail anchors,-0.45318763367548176,0.17204301075268819,93
+int,Low-intensity frontage,Small retail & services,-1.1994019413864583,0.1935483870967742,93
+int,Low-intensity frontage,"Office, lodging & mixed use",-0.2536122810731699,1.3978494623655915,93
+int,Low-intensity frontage,Civic & recreation,-0.4408703395130631,0.0,93
+int,Low-intensity frontage,Industrial,-0.40079408630252844,0.03225806451612903,93
+seg,Shopping-center / big-box retail,Auto-oriented,0.3365974769963838,6.571876016585729,86
+seg,Shopping-center / big-box retail,Food & drink,0.8532425170726795,8.202637402965731,86
+seg,Shopping-center / big-box retail,Retail anchors,0.8828387006515107,5.897288239382173,86
+seg,Shopping-center / big-box retail,Small retail & services,0.671801100151137,17.871797337947118,86
+seg,Shopping-center / big-box retail,"Office, lodging & mixed use",0.04903155838546875,14.461514796158754,86
+seg,Shopping-center / big-box retail,Civic & recreation,-0.56910524898294,0.11082495636368846,86
+seg,Shopping-center / big-box retail,Industrial,-0.5125535825596917,0.547525483844043,86
+seg,Low-intensity frontage,Auto-oriented,-0.835662887029054,1.0179413446349854,95
+seg,Low-intensity frontage,Food & drink,-0.8864344186632491,0.4192494720233162,95
+seg,Low-intensity frontage,Retail anchors,-0.286630808118879,1.2753828052155156,95
+seg,Low-intensity frontage,Small retail & services,-1.130559362807518,2.19586407762591,95
+seg,Low-intensity frontage,"Office, lodging & mixed use",-0.8979548781525417,2.6212224790855245,95
+seg,Low-intensity frontage,Civic & recreation,-0.13075424394272192,0.7743404855254984,95
+seg,Low-intensity frontage,Industrial,-0.3556676079089816,1.0983390142799687,95
+seg,Industrial & auto-oriented,Auto-oriented,0.823812562281353,9.847736805371984,57
+seg,Industrial & auto-oriented,Food & drink,0.32937257319475655,5.7103967782867375,57
+seg,Industrial & auto-oriented,Retail anchors,-0.4650831929358798,0.8602425398712794,57
+seg,Industrial & auto-oriented,Small retail & services,0.6484281487687081,17.739944631218485,57
+seg,Industrial & auto-oriented,"Office, lodging & mixed use",0.5006787094957427,23.538447078605213,57
+seg,Industrial & auto-oriented,Civic & recreation,-0.5002291469832865,0.16888053682105106,57
+seg,Industrial & auto-oriented,Industrial,1.4258971768685988,8.867436891160915,57
+seg,Civic & recreation,Auto-oriented,0.461069231377501,7.064863755171755,57
+seg,Civic & recreation,Food & drink,0.17399715977155727,4.898231137234281,57
+seg,Civic & recreation,Retail anchors,-0.1069642337749307,1.904348265706704,57
+seg,Civic & recreation,Small retail & services,0.3532010295252466,13.557891578095347,57
+seg,Civic & recreation,"Office, lodging & mixed use",-0.058388997553754235,9.176295507573283,57
+seg,Civic & recreation,Civic & recreation,1.6022831684414551,3.9391994888584754,57
+seg,Civic & recreation,Industrial,0.36729283441264504,3.3411074685932767,57
+seg,"Office, lodging & mixed use",Auto-oriented,-0.5845556664739376,2.1153964599138546,39
+seg,"Office, lodging & mixed use",Food & drink,-0.45794003780311854,2.38602573429292,39
+seg,"Office, lodging & mixed use",Retail anchors,-0.4124999528774425,0.9551846869888013,39
+seg,"Office, lodging & mixed use",Small retail & services,-0.19140046946254202,7.714658797968664,39
+seg,"Office, lodging & mixed use","Office, lodging & mixed use",1.432781687760199,76.80813060286997,39
+seg,"Office, lodging & mixed use",Civic & recreation,-0.03724037528267121,0.8766111042619702,39
+seg,"Office, lodging & mixed use",Industrial,-0.6241999946549782,0.20370103263234096,39

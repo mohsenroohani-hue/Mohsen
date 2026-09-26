@@ -1,0 +1,7 @@
+# Raw crash/land-use data and site-level GIS exports stay out of the public repository.
+data/*.csv
+outputs/gis/
+outputs/*.pkl
+outputs/*.log
+outputs/.xref_registry.json
+__pycache__/
