@@ -1,0 +1,13 @@
+{
+  "note": "Segments. IRR vs low-intensity frontage, shown only where p < 0.05. 'ns' = not significant, 'na' = not estimated (grey cells in the draft).",
+  "unit": "segments",
+  "highlight": {"row": "Pedestrian", "label": "Pedestrian row"},
+  "rows": ["All", "Angle", "Left turn", "Right turn", "Rear end", "Sideswipe", "Head on", "Run-off-road", "Rollover", "Single veh.", "Pedestrian", "Bicycle", "Alcohol"],
+  "columns": ["Shopping ctr / big-box", "Industrial / auto", "Civic / recreation", "Office / lodging"],
+  "panels": {
+    "Total": [[1.4,"ns","ns","ns"],[1.8,"ns","ns","ns"],[1.7,"ns","ns","ns"],[1.9,"ns","ns","ns"],["ns","ns","ns","ns"],[1.4,"ns","ns","ns"],["ns","ns","ns","ns"],["ns","ns","ns","ns"],["ns","ns","ns","ns"],["ns","ns","ns","ns"],[2.6,"ns",2.4,"ns"],["ns","ns","ns","ns"],["ns","ns","ns","ns"]],
+    "KAB": [["ns","ns","ns","ns"],["ns","ns","ns","ns"],["ns","ns","ns","ns"],[3.2,"ns","ns","ns"],["ns",0.7,"ns",0.7],["ns",1.9,"ns","ns"],["ns","ns","ns","ns"],["ns","ns","ns",0.4],["ns","ns","ns","ns"],[2.6,"ns",2.1,"ns"],[1.9,"ns","ns","ns"],["ns","ns","ns","ns"],["ns","ns","ns","ns"]],
+    "KSI": [["ns","ns","ns","ns"],["ns","ns","ns","ns"],["ns","ns","ns","ns"],["na","na","na","na"],["ns","ns","ns","ns"],["ns","ns","ns","ns"],["na","na","na","na"],["ns","ns",2.0,"ns"],["na","na","na","na"],[7.0,4.8,3.7,"ns"],[3.4,"ns","ns","ns"],["ns","ns","ns","ns"],["ns","ns","ns","ns"]],
+    "Fatal": [["ns","ns","ns","ns"],["na","na","na","na"],["ns","ns","ns","ns"],["na","na","na","na"],["na","na","na","na"],["na","na","na","na"],["na","na","na","na"],["ns","ns","ns","ns"],["na","na","na","na"],["na","na","na","na"],[4.1,3.7,3.6,"ns"],["na","na","na","na"],["ns","ns","ns","ns"]]
+  }
+}
