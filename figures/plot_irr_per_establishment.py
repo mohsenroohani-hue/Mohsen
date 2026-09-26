@@ -57,10 +57,10 @@ COL_GROUPS = [("", 0, 0), ("Multi-vehicle", 1, 6), ("Single-veh.", 7, 9),
               ("Road user", 10, 12)]
 
 
-def cell(grid, row, col):
+def cell(grid, row, col, na_cols=()):
     """-> (value, highlighted, state) with state in sig / ns / na."""
     r = grid.get(row, {})
-    if r == "na":
+    if r == "na" or col in na_cols:
         return np.nan, False, "na"
     v = r.get(col)
     if v is None:
@@ -70,11 +70,11 @@ def cell(grid, row, col):
     return float(v), False, "sig"
 
 
-def heat(ax, grid, rows, cols, counts, title, tag, labels):
+def heat(ax, grid, rows, cols, counts, title, tag, labels, na_cols=()):
     nr, nc = len(rows), len(cols)
     for i, row in enumerate(rows):
         for j, col in enumerate(cols):
-            v, box, st = cell(grid, row, col)
+            v, box, st = cell(grid, row, col, na_cols)
             if st == "na":
                 ax.add_patch(Rectangle((j + .05, i + .06), .9, .88, fc=NA_FC,
                                        ec=NA_HATCH, hatch="////", lw=0))
@@ -130,8 +130,10 @@ def row_brackets(ax):
 
 def main(data="irr_per_establishment_data.json", stem="irr_per_establishment"):
     d = json.loads((HERE / data).read_text())
-    vmax = max(float(str(v).rstrip("*")) for g in d["panels"].values()
-               for r in g.values() if r != "na" for v in r.values())
+    vals = [float(str(v).rstrip("*")) for g in d["panels"].values()
+            for r in g.values() if r != "na" for v in r.values()]
+    cb_ext = {(False, False): "neither", (True, False): "min",
+           (False, True): "max", (True, True): "both"}[(min(vals) < 0.5, max(vals) > HI)]
     rows = [n for _, names in ROW_GROUPS for n in names]
     labels = [n + (" (per 10)" if n in d["per10"] else "")
               + (" †" if n in d["dagger"] else "") for n in rows]
@@ -142,16 +144,18 @@ def main(data="irr_per_establishment_data.json", stem="irr_per_establishment"):
                           left=0.265, right=0.935, top=0.92, bottom=0.22)
     ax1, ax2, cax = (fig.add_subplot(gs[k]) for k in range(3))
     heat(ax1, d["panels"]["Intersections"], rows, cols, d["n"]["int"],
-         "Intersections", "a", labels)
+         "Intersections", "a", labels, d.get("na_cols", {}).get("Intersections", ()))
     heat(ax2, d["panels"]["Segments"], rows, cols, d["n"]["seg"],
-         "Segments", "b", None)
+         "Segments", "b", None, d.get("na_cols", {}).get("Segments", ()))
     row_brackets(ax1)
     p = cax.get_position(); cax.set_position([p.x0 + 0.012, p.y0, p.width, p.height])
 
-    sm = mpl.cm.ScalarMappable(norm=NORM, cmap=CMAP)
+    shown = np.geomspace(0.5, HI, 256)          # colour-bar range displayed
+    cb_cmap = mpl.colors.ListedColormap(CMAP(NORM(shown))).with_extremes(
+        under=CMAP(0.0), over=CMAP(1.0))
+    sm = mpl.cm.ScalarMappable(norm=LogNorm(0.5, HI), cmap=cb_cmap)
     ticks = [0.5, 0.67, 1, 1.5, 2, 3, 4]
-    cb = fig.colorbar(sm, cax=cax, ticks=ticks, boundaries=np.geomspace(0.5, HI, 257),
-                      extend="max" if vmax > HI else "neither", extendfrac=0.04)
+    cb = fig.colorbar(sm, cax=cax, ticks=ticks, extend=cb_ext, extendfrac=0.04)
     cb.ax.minorticks_off()
     cb.ax.set_yticklabels([f"{t:g}" for t in ticks])
     cb.outline.set_linewidth(0.5)
