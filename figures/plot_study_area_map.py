@@ -59,24 +59,13 @@ def area(ring):
                          in zip(ring, ring[1:] + ring[:1])))
 
 
-def draw_region(ax, p, title, tag):
+def draw_region(ax, p, title, tag, layer):
     ax.set_facecolor(WATER)
     ax.add_collection(PatchCollection([Polygon(r) for r in p["land"] if area(r) > 0.5],
                                       fc=LAND, ec="none", zorder=1))
     ax.add_collection(LineCollection(p["county"], colors="white", lw=0.9,
                                      capstyle="round", zorder=2))
-    mk = [(x, y) for _, x, y in p["markers"]]
-    near = lambda q: min((q[0] - x) ** 2 + (q[1] - y) ** 2 for x, y in mk) < 9
-    corridor = [sg for sg in p["corridor"] if near(sg[0])]  # drop tracing specks
-    ax.add_collection(LineCollection(corridor, colors=CORRIDOR, lw=0.9,
-                                     capstyle="round", zorder=3))
-    # draw the largest classes first so rarer types stay visible
-    for key, _, n, col, mk, sz in sorted(TYPES, key=lambda t: -t[2]):
-        xy = [(x, y) for k, x, y in p["markers"] if k == key]
-        if xy:
-            xs, ys = zip(*xy)
-            ax.scatter(xs, ys, s=sz, c=col, marker=mk, edgecolors="white",
-                       linewidths=0.45, zorder=4)
+    layer(ax, tag)
     for name, x, y in COUNTY_LABELS.get(tag, []):
         ax.text(x, y, name, fontsize=7, style="italic", color="#6e6e6e",
                 ha="center", va="center", zorder=5)
@@ -85,6 +74,29 @@ def draw_region(ax, p, title, tag):
     for s in ax.spines.values():
         s.set_color(EDGE)
     ax.set_title(title, fontsize=10, fontweight="bold", pad=3)
+
+
+def intersection_layer(d):
+    """Corridor lines + typology markers for the intersection map."""
+    def layer(ax, tag):
+        p = d[tag]
+        mk = [(x, y) for _, x, y in p["markers"]]
+        near = lambda q: min((q[0] - x) ** 2 + (q[1] - y) ** 2 for x, y in mk) < 9
+        corridor = [sg for sg in p["corridor"] if near(sg[0])]  # drop tracing specks
+        ax.add_collection(LineCollection(corridor, colors=CORRIDOR, lw=0.9,
+                                         capstyle="round", zorder=3))
+        # draw the largest classes first so rarer types stay visible
+        for key, _, n, col, m, sz in sorted(TYPES, key=lambda t: -t[2]):
+            xy = [(x, y) for k, x, y in p["markers"] if k == key]
+            if xy:
+                xs, ys = zip(*xy)
+                ax.scatter(xs, ys, s=sz, c=col, marker=m, edgecolors="white",
+                           linewidths=0.45, zorder=4)
+    handles = [Line2D([], [], ls="", marker=m, ms=sz ** 0.5 * 1.25, mfc=col,
+                      mec="white", mew=0.45, label=f"{lab} ($n$ = {n})")
+               for _, lab, n, col, m, sz in TYPES]
+    handles.append(Line2D([], [], color=CORRIDOR, lw=1.2, label="Study corridor"))
+    return layer, handles
 
 
 def draw_locator(ax, counties):
@@ -134,8 +146,9 @@ def north_arrow(ax):
     ax.text(0.5, 0.28, "N", ha="center", va="top", fontsize=9, fontweight="bold")
 
 
-def main():
+def main(make_layer=intersection_layer, unit="intersections", stem="study_area_map"):
     d = json.loads((HERE / "study_area_map_data.json").read_text())
+    layer, handles = make_layer(d)
     counties = json.loads((HERE / "florida_counties.json").read_text())
 
     W = 7.16                                     # double-column width (in)
@@ -150,7 +163,7 @@ def main():
     for (key, title, _), w in zip(REGIONS, widths):
         h = d[key]["h_km"] * s
         ax = fig.add_axes([x / W, (H - top_pad - h) / H, w * s / W, h / H])
-        draw_region(ax, d[key], title, key)
+        draw_region(ax, d[key], title, key, layer)
         axes[key] = (x, w * s, h)
         x += (w + gap_km) * s
 
@@ -159,12 +172,8 @@ def main():
     y_top = H - top_pad - oh - 0.12
     leg_h = 1.05
     lax = fig.add_axes([ox / W, (y_top - leg_h) / H, ow / W, leg_h / H]); lax.axis("off")
-    handles = [Line2D([], [], ls="", marker=mk, ms=sz ** 0.5 * 1.25, mfc=col,
-                      mec="white", mew=0.45, label=f"{lab} ($n$ = {n})")
-               for _, lab, n, col, mk, sz in TYPES]
-    handles.append(Line2D([], [], color=CORRIDOR, lw=1.2, label="Study corridor"))
     lax.legend(handles=handles, loc="upper left", frameon=False, fontsize=7.5,
-               title="Land-use context typology (intersections)",
+               title=f"Land-use context typology ({unit})",
                title_fontproperties={"weight": "bold", "size": 8},
                alignment="left", handletextpad=0.5, labelspacing=0.45,
                borderaxespad=0)
@@ -183,7 +192,7 @@ def main():
 
     for ext, kw in (("pdf", {}), ("png", {"dpi": 600}),
                     ("tiff", {"dpi": 600, "pil_kwargs": {"compression": "tiff_lzw"}})):
-        fig.savefig(HERE / f"study_area_map.{ext}", bbox_inches="tight",
+        fig.savefig(HERE / f"{stem}.{ext}", bbox_inches="tight",
                     pad_inches=0.03, **kw)
 
 
