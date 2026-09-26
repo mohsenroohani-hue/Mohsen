@@ -1,0 +1,146 @@
+{
+ "note": "IRR per establishment from the draft figure; only significant cells were printed. Values ending in '*' were bold and boxed in the draft. Rows marked 'na' were grey (not estimated). Blank = not significant. Fourth version of the figure (smallest crash counts; severity subset to be confirmed). na_cols: crash-type columns greyed out (not estimated) in the draft.",
+ "box_label": "Bold, boxed: highlighted estimate (edit this label)",
+ "dagger_label": "\u2020 see table note (edit this label)",
+ "per10": [
+  "Mixed-use buildings",
+  "Office buildings"
+ ],
+ "dagger": [
+  "Regional shopping centers",
+  "Bars",
+  "Department / big-box stores",
+  "Repair shops",
+  "Hospitals"
+ ],
+ "columns": [
+  "All",
+  "Angle",
+  "Left turn",
+  "Right turn",
+  "Rear end",
+  "Sideswipe",
+  "Head on",
+  "Run-off-road",
+  "Rollover",
+  "Single veh.",
+  "Pedestrian",
+  "Bicycle",
+  "Alcohol"
+ ],
+ "n": {
+  "int": [
+   113,
+   13,
+   20,
+   1,
+   7,
+   6,
+   0,
+   8,
+   2,
+   8,
+   36,
+   4,
+   15
+  ],
+  "seg": [
+   177,
+   5,
+   30,
+   2,
+   7,
+   4,
+   2,
+   25,
+   3,
+   8,
+   65,
+   13,
+   20
+  ]
+ },
+ "panels": {
+  "Intersections": {
+   "Gas stations": {
+    "All": 1.36,
+    "Pedestrian": 1.64
+   },
+   "Community shopping centers": {
+    "Left turn": 1.78
+   },
+   "Fast-food restaurants": {
+    "All": "1.53*",
+    "Pedestrian": "1.75*"
+   },
+   "Bars": {
+    "Left turn": 5.38
+   },
+   "Repair shops": {
+    "Left turn": 8.67
+   },
+   "Single-tenant retail stores": {
+    "All": "1.20*",
+    "Left turn": 1.32
+   },
+   "Hospitals": "na"
+  },
+  "Segments": {
+   "Mixed-use buildings": {
+    "All": 2.0,
+    "Pedestrian": 2.28
+   },
+   "Gas stations": {
+    "Pedestrian": "1.97*"
+   },
+   "Supermarkets": {
+    "All": 1.37,
+    "Pedestrian": 1.54
+   },
+   "Regional shopping centers": "na",
+   "Hotels": {
+    "Pedestrian": "1.36*"
+   },
+   "Auto sales & service": {
+    "All": "1.12*",
+    "Left turn": "1.14*",
+    "Pedestrian": "1.18*",
+    "Alcohol": 1.2
+   },
+   "Schools": {
+    "Left turn": 1.68
+   },
+   "Hospitals": {
+    "Alcohol": "5.98*"
+   },
+   "Industrial": {
+    "All": 1.05,
+    "Left turn": 1.1
+   }
+  }
+ },
+ "na_cols": {
+  "Intersections": [
+   "Angle",
+   "Right turn",
+   "Rear end",
+   "Sideswipe",
+   "Head on",
+   "Run-off-road",
+   "Rollover",
+   "Single veh.",
+   "Bicycle",
+   "Alcohol"
+  ],
+  "Segments": [
+   "Angle",
+   "Right turn",
+   "Rear end",
+   "Sideswipe",
+   "Head on",
+   "Rollover",
+   "Single veh.",
+   "Bicycle"
+  ]
+ }
+}
