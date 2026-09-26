@@ -1,0 +1,169 @@
+{
+ "note": "IRR per establishment from the draft figure; only significant cells were printed. Values ending in '*' were bold and boxed in the draft. Rows marked 'na' were grey (not estimated). Blank = not significant. Second version of the figure (smaller crash counts; severity subset to be confirmed).",
+ "box_label": "Bold, boxed: highlighted estimate (edit this label)",
+ "dagger_label": "\u2020 see table note (edit this label)",
+ "per10": [
+  "Mixed-use buildings",
+  "Office buildings"
+ ],
+ "dagger": [
+  "Regional shopping centers",
+  "Bars",
+  "Department / big-box stores",
+  "Repair shops",
+  "Hospitals"
+ ],
+ "columns": [
+  "All",
+  "Angle",
+  "Left turn",
+  "Right turn",
+  "Rear end",
+  "Sideswipe",
+  "Head on",
+  "Run-off-road",
+  "Rollover",
+  "Single veh.",
+  "Pedestrian",
+  "Bicycle",
+  "Alcohol"
+ ],
+ "n": {
+  "int": [
+   4623,
+   473,
+   938,
+   68,
+   1578,
+   161,
+   56,
+   180,
+   57,
+   211,
+   362,
+   219,
+   203
+  ],
+  "seg": [
+   2945,
+   212,
+   467,
+   52,
+   933,
+   135,
+   39,
+   189,
+   20,
+   160,
+   290,
+   196,
+   123
+  ]
+ },
+ "panels": {
+  "Intersections": {
+   "Mixed-use buildings": {
+    "Head on": 6.02
+   },
+   "Gas stations": {
+    "All": 1.14,
+    "Sideswipe": 1.46,
+    "Pedestrian": "1.47*",
+    "Alcohol": 1.39
+   },
+   "Community shopping centers": {
+    "All": "1.17*",
+    "Head on": 1.49,
+    "Pedestrian": "1.43*"
+   },
+   "Fast-food restaurants": {
+    "Left turn": 1.18,
+    "Rollover": "1.73*"
+   },
+   "Sit-down restaurants": {
+    "Left turn": "0.68*"
+   },
+   "Hotels": {
+    "Rollover": 2.17,
+    "Single veh.": 1.6,
+    "Pedestrian": "1.83*"
+   },
+   "Banks": {
+    "Rollover": 1.61
+   },
+   "Auto sales & service": {
+    "Bicycle": 1.17
+   },
+   "Single-tenant retail stores": {
+    "Rear end": 1.06,
+    "Sideswipe": 1.13,
+    "Pedestrian": 1.11
+   },
+   "Parks & recreation": {
+    "Bicycle": 1.89
+   },
+   "Hospitals": "na",
+   "Industrial": {
+    "Head on": 0.48,
+    "Alcohol": 0.65
+   }
+  },
+  "Segments": {
+   "Mixed-use buildings": {
+    "Head on": 2.49,
+    "Alcohol": 1.9
+   },
+   "Gas stations": {
+    "Sideswipe": "1.63*"
+   },
+   "Supermarkets": {
+    "All": 1.18,
+    "Left turn": 1.35,
+    "Right turn": "2.26*",
+    "Sideswipe": "1.45*",
+    "Head on": 1.54,
+    "Rollover": "2.38*",
+    "Pedestrian": 1.33
+   },
+   "Regional shopping centers": "na",
+   "Community shopping centers": {
+    "Right turn": 1.19,
+    "Sideswipe": "1.16*",
+    "Head on": "1.22*"
+   },
+   "Sit-down restaurants": {
+    "Single veh.": 1.13
+   },
+   "Bars": {
+    "Sideswipe": 0.57
+   },
+   "Hotels": {
+    "Single veh.": 1.26,
+    "Pedestrian": 1.23
+   },
+   "Office buildings": {
+    "Angle": 0.79,
+    "Rear end": 0.89,
+    "Head on": 1.29
+   },
+   "Auto sales & service": {
+    "Rollover": "1.18*",
+    "Bicycle": 1.06,
+    "Alcohol": "1.10*"
+   },
+   "Single-tenant retail stores": {
+    "All": 1.02,
+    "Single veh.": 1.04
+   },
+   "Parks & recreation": {
+    "Sideswipe": 0.73
+   },
+   "Schools": {
+    "Sideswipe": 1.28
+   },
+   "Industrial": {
+    "Single veh.": 0.9
+   }
+  }
+ }
+}

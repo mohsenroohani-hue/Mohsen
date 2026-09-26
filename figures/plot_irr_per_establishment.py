@@ -8,8 +8,11 @@ Layout ideas (consistent with the Moran's I figure):
   * explicit cell states: significant (coloured + value), highlighted
     (bold + outline), not significant (faint dot), not estimated (hatched)
   * Times New Roman throughout, vector PDF with embedded TrueType fonts
+
+Usage: python plot_irr_per_establishment.py [data.json] [output_stem]
 """
 import json
+import sys
 from pathlib import Path
 
 import matplotlib as mpl
@@ -125,8 +128,10 @@ def row_brackets(ax):
                 linespacing=1.0)
 
 
-def main():
-    d = json.loads((HERE / "irr_per_establishment_data.json").read_text())
+def main(data="irr_per_establishment_data.json", stem="irr_per_establishment"):
+    d = json.loads((HERE / data).read_text())
+    vmax = max(float(str(v).rstrip("*")) for g in d["panels"].values()
+               for r in g.values() if r != "na" for v in r.values())
     rows = [n for _, names in ROW_GROUPS for n in names]
     labels = [n + (" (per 10)" if n in d["per10"] else "")
               + (" †" if n in d["dagger"] else "") for n in rows]
@@ -145,7 +150,8 @@ def main():
 
     sm = mpl.cm.ScalarMappable(norm=NORM, cmap=CMAP)
     ticks = [0.5, 0.67, 1, 1.5, 2, 3, 4]
-    cb = fig.colorbar(sm, cax=cax, ticks=ticks, boundaries=np.geomspace(0.5, HI, 257))
+    cb = fig.colorbar(sm, cax=cax, ticks=ticks, boundaries=np.geomspace(0.5, HI, 257),
+                      extend="max" if vmax > HI else "neither", extendfrac=0.04)
     cb.ax.minorticks_off()
     cb.ax.set_yticklabels([f"{t:g}" for t in ticks])
     cb.outline.set_linewidth(0.5)
@@ -169,9 +175,9 @@ def main():
 
     for ext, kw in (("pdf", {}), ("png", {"dpi": 600}),
                     ("tiff", {"dpi": 600, "pil_kwargs": {"compression": "tiff_lzw"}})):
-        fig.savefig(HERE / f"irr_per_establishment.{ext}", bbox_inches="tight",
+        fig.savefig(HERE / f"{stem}.{ext}", bbox_inches="tight",
                     pad_inches=0.03, **kw)
 
 
 if __name__ == "__main__":
-    main()
+    main(*sys.argv[1:3])
