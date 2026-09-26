@@ -1,0 +1,215 @@
+{
+ "note": "IRR per establishment from the draft figure; only significant cells were printed. Values ending in '*' were bold and boxed in the draft. Rows marked 'na' were grey (not estimated). Blank = not significant.",
+ "box_label": "Bold, boxed: highlighted estimate (edit this label)",
+ "dagger_label": "\u2020 see table note (edit this label)",
+ "per10": [
+  "Mixed-use buildings",
+  "Office buildings"
+ ],
+ "dagger": [
+  "Regional shopping centers",
+  "Bars",
+  "Department / big-box stores",
+  "Repair shops",
+  "Hospitals"
+ ],
+ "columns": [
+  "All",
+  "Angle",
+  "Left turn",
+  "Right turn",
+  "Rear end",
+  "Sideswipe",
+  "Head on",
+  "Run-off-road",
+  "Rollover",
+  "Single veh.",
+  "Pedestrian",
+  "Bicycle",
+  "Alcohol"
+ ],
+ "n": {
+  "int": [
+   51277,
+   2693,
+   4650,
+   1358,
+   25212,
+   7429,
+   485,
+   1263,
+   300,
+   822,
+   609,
+   447,
+   883
+  ],
+  "seg": [
+   24909,
+   1310,
+   2289,
+   567,
+   10937,
+   3471,
+   222,
+   1192,
+   107,
+   566,
+   424,
+   387,
+   435
+  ]
+ },
+ "panels": {
+  "Intersections": {
+   "Mixed-use buildings": {
+    "Head on": 3.76
+   },
+   "Gas stations": {
+    "All": "1.17*",
+    "Angle": "1.35*",
+    "Right turn": "1.31*",
+    "Rear end": 1.14,
+    "Sideswipe": "1.22*",
+    "Pedestrian": "1.39*",
+    "Bicycle": 1.24
+   },
+   "Supermarkets": {
+    "Angle": 1.21
+   },
+   "Community shopping centers": {
+    "All": "1.17*",
+    "Angle": "1.26*",
+    "Left turn": "1.21*",
+    "Right turn": "1.23*",
+    "Rear end": 1.11,
+    "Sideswipe": "1.16*",
+    "Head on": 1.19,
+    "Pedestrian": "1.45*"
+   },
+   "Fast-food restaurants": {
+    "All": 1.09,
+    "Left turn": 1.15,
+    "Rear end": 1.11,
+    "Sideswipe": 1.13,
+    "Run-off-road": "1.20*",
+    "Pedestrian": 1.2
+   },
+   "Hotels": {
+    "Rollover": "1.90*",
+    "Pedestrian": "1.74*"
+   },
+   "Office buildings": {
+    "Run-off-road": 0.67,
+    "Pedestrian": 0.57
+   },
+   "Department / big-box stores": {
+    "Right turn": 1.57,
+    "Bicycle": 1.78
+   },
+   "Banks": {
+    "All": 1.09,
+    "Angle": 1.19,
+    "Left turn": 1.16,
+    "Right turn": "1.23*"
+   },
+   "Auto sales & service": {
+    "Head on": 1.14,
+    "Bicycle": 1.16
+   },
+   "Single-tenant retail stores": {
+    "All": "1.06*",
+    "Right turn": "1.10*",
+    "Rear end": 1.05,
+    "Sideswipe": "1.07*",
+    "Head on": 1.08,
+    "Run-off-road": 1.06,
+    "Single veh.": 1.07,
+    "Pedestrian": "1.10*",
+    "Alcohol": 1.06
+   },
+   "Parks & recreation": {
+    "Bicycle": 1.46
+   },
+   "Schools": {
+    "Head on": "0.55*"
+   },
+   "Hospitals": "na",
+   "Industrial": {
+    "All": 0.9,
+    "Rear end": "0.87*"
+   }
+  },
+  "Segments": {
+   "Mixed-use buildings": {
+    "Sideswipe": 1.47
+   },
+   "Gas stations": {
+    "All": "1.24*",
+    "Angle": "1.43*",
+    "Left turn": 1.26,
+    "Rear end": 1.19,
+    "Sideswipe": 1.19,
+    "Rollover": 1.35,
+    "Bicycle": "1.41*"
+   },
+   "Supermarkets": {
+    "All": "1.20*",
+    "Angle": 1.32,
+    "Left turn": "1.36*",
+    "Right turn": 1.27,
+    "Rear end": 1.15,
+    "Rollover": 1.53
+   },
+   "Regional shopping centers": "na",
+   "Community shopping centers": {
+    "All": 1.06,
+    "Left turn": 1.12,
+    "Right turn": 1.14
+   },
+   "Fast-food restaurants": {
+    "All": 1.08,
+    "Angle": 1.13,
+    "Left turn": "1.17*",
+    "Right turn": 1.14,
+    "Rear end": 1.08
+   },
+   "Hotels": {
+    "Single veh.": 1.13
+   },
+   "Banks": {
+    "All": 1.09,
+    "Angle": 1.19,
+    "Left turn": "1.23*",
+    "Right turn": "1.26*",
+    "Pedestrian": 1.17
+   },
+   "Auto sales & service": {
+    "All": 1.04,
+    "Rear end": 1.03,
+    "Sideswipe": "1.06*",
+    "Head on": 1.07,
+    "Rollover": 1.09,
+    "Alcohol": "1.07*"
+   },
+   "Single-tenant retail stores": {
+    "All": "1.03*",
+    "Angle": "1.05*",
+    "Rear end": 1.02,
+    "Sideswipe": "1.03*",
+    "Pedestrian": "1.05*"
+   },
+   "Hospitals": {
+    "Sideswipe": 0.57
+   },
+   "Industrial": {
+    "All": 0.96,
+    "Angle": 0.94,
+    "Left turn": 0.96,
+    "Rear end": 0.96,
+    "Sideswipe": 0.96,
+    "Single veh.": 0.95
+   }
+  }
+ }
+}
