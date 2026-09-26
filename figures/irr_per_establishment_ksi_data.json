@@ -1,5 +1,5 @@
 {
- "note": "IRR per establishment from the draft figure; only significant cells were printed. Values ending in '*' were bold and boxed in the draft. Rows marked 'na' were grey (not estimated). Blank = not significant. Third version of the figure (smallest crash counts; severity subset to be confirmed). na_cols: crash-type columns greyed out (not estimated) in the draft.",
+ "note": "IRR per establishment from the draft figure; only significant cells were printed. Values ending in '*' were bold and boxed in the draft. Rows marked 'na' were grey (not estimated). Blank = not significant. Severity subset: KSI (confirmed against the significance-count summary figure). na_cols: crash-type columns greyed out (not estimated) in the draft.",
  "box_label": "Bold, boxed: highlighted estimate (edit this label)",
  "dagger_label": "\u2020 see table note (edit this label)",
  "per10": [
@@ -166,5 +166,6 @@
    "Head on",
    "Rollover"
   ]
- }
+ },
+ "severity": "KSI"
 }

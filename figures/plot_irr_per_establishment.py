@@ -10,6 +10,7 @@ Layout ideas (consistent with the Moran's I figure):
   * Times New Roman throughout, vector PDF with embedded TrueType fonts
 
 Usage: python plot_irr_per_establishment.py [data.json] [output_stem]
+       python plot_irr_per_establishment.py --all      # total, KAB, KSI, fatal
 """
 import json
 import sys
@@ -57,6 +58,10 @@ COL_GROUPS = [("", 0, 0), ("Multi-vehicle", 1, 6), ("Single-veh.", 7, 9),
               ("Road user", 10, 12)]
 
 
+SEVERITY_TEXT = {"Total": "all crashes", "KAB": "KAB crashes",
+                 "KSI": "KSI crashes", "Fatal": "fatal crashes"}
+
+
 def cell(grid, row, col, na_cols=()):
     """-> (value, highlighted, state) with state in sig / ns / na."""
     r = grid.get(row, {})
@@ -70,7 +75,7 @@ def cell(grid, row, col, na_cols=()):
     return float(v), False, "sig"
 
 
-def heat(ax, grid, rows, cols, counts, title, tag, labels, na_cols=()):
+def heat(ax, grid, rows, cols, counts, title, tag, labels, na_cols=(), severity=""):
     nr, nc = len(rows), len(cols)
     for i, row in enumerate(rows):
         for j, col in enumerate(cols):
@@ -113,6 +118,9 @@ def heat(ax, grid, rows, cols, counts, title, tag, labels, na_cols=()):
                 fontsize=6.5, style="italic", color="#333", clip_on=False)
     ax.set_title(f"({tag}) {title}", loc="left", fontsize=10, fontweight="bold",
                  pad=15)
+    if severity:
+        ax.text(1.0, 1.0, SEVERITY_TEXT.get(severity, severity), transform=ax.transAxes,
+                ha="right", va="bottom", fontsize=7.2, style="italic", color="#444")
 
 
 def row_brackets(ax):
@@ -128,7 +136,7 @@ def row_brackets(ax):
                 linespacing=1.0)
 
 
-def main(data="irr_per_establishment_data.json", stem="irr_per_establishment"):
+def main(data="irr_per_establishment_total_data.json", stem="irr_per_establishment_total"):
     d = json.loads((HERE / data).read_text())
     vals = [float(str(v).rstrip("*")) for g in d["panels"].values()
             for r in g.values() if r != "na" for v in r.values()]
@@ -144,9 +152,11 @@ def main(data="irr_per_establishment_data.json", stem="irr_per_establishment"):
                           left=0.265, right=0.935, top=0.92, bottom=0.22)
     ax1, ax2, cax = (fig.add_subplot(gs[k]) for k in range(3))
     heat(ax1, d["panels"]["Intersections"], rows, cols, d["n"]["int"],
-         "Intersections", "a", labels, d.get("na_cols", {}).get("Intersections", ()))
+         "Intersections", "a", labels, d.get("na_cols", {}).get("Intersections", ()),
+         d.get("severity", ""))
     heat(ax2, d["panels"]["Segments"], rows, cols, d["n"]["seg"],
-         "Segments", "b", None, d.get("na_cols", {}).get("Segments", ()))
+         "Segments", "b", None, d.get("na_cols", {}).get("Segments", ()),
+         d.get("severity", ""))
     row_brackets(ax1)
     p = cax.get_position(); cax.set_position([p.x0 + 0.012, p.y0, p.width, p.height])
 
@@ -184,4 +194,8 @@ def main(data="irr_per_establishment_data.json", stem="irr_per_establishment"):
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:3])
+    if sys.argv[1:] == ["--all"]:
+        for sev in ("total", "kab", "ksi", "fatal"):
+            main(f"irr_per_establishment_{sev}_data.json", f"irr_per_establishment_{sev}")
+    else:
+        main(*sys.argv[1:3])
