@@ -1,0 +1,415 @@
+{
+ "note": "Moran's I of Pearson residuals (k = 6 nearest neighbours) before and after eigenvector spatial filtering (ESF). Dot positions traced from the draft (0.05 = 141 px; accuracy about +/-0.002). EV = number of eigenvectors selected.",
+ "rows": [
+  {
+   "facility": "Segments",
+   "crash_type": "All",
+   "severity": "KAB",
+   "eigenvectors": 10,
+   "after": 0.0838,
+   "before": null,
+   "before_note": "beyond axis limit (> 0.26) in the draft; value not recoverable"
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "All",
+   "severity": "KSI",
+   "eigenvectors": 8,
+   "before": 0.2444,
+   "after": 0.0712,
+   "ev_note": "EV count partly hidden behind a marker in the draft; read as 8"
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "All",
+   "severity": "Total",
+   "eigenvectors": 8,
+   "before": 0.23,
+   "after": 0.0886
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Rear end",
+   "severity": "KAB",
+   "eigenvectors": 6,
+   "before": 0.2145,
+   "after": 0.0367
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Rear end",
+   "severity": "Total",
+   "eigenvectors": 7,
+   "before": 0.2004,
+   "after": 0.0977
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Sideswipe",
+   "severity": "Total",
+   "eigenvectors": 7,
+   "before": 0.1874,
+   "after": 0.078
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Pedestrian",
+   "severity": "KSI",
+   "eigenvectors": 3,
+   "before": 0.1805,
+   "after": 0.0995
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Bicycle",
+   "severity": "Total",
+   "eigenvectors": 3,
+   "before": 0.1598,
+   "after": 0.0842
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Rear end",
+   "severity": "KSI",
+   "eigenvectors": 2,
+   "before": 0.1337,
+   "after": 0.0424
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Sideswipe",
+   "severity": "KAB",
+   "eigenvectors": 3,
+   "before": 0.131,
+   "after": 0.0416
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Single veh.",
+   "severity": "KSI",
+   "eigenvectors": 3,
+   "before": 0.1209,
+   "after": 0.0082
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "All",
+   "severity": "Fatal",
+   "eigenvectors": 2,
+   "before": 0.1109,
+   "after": 0.0511
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Right turn",
+   "severity": "Total",
+   "eigenvectors": 1,
+   "before": 0.1084,
+   "after": 0.0491
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Alcohol",
+   "severity": "KAB",
+   "eigenvectors": 1,
+   "before": 0.1061,
+   "after": 0.0546
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Left turn",
+   "severity": "KSI",
+   "eigenvectors": 1,
+   "before": 0.0986,
+   "after": 0.0552
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Pedestrian",
+   "severity": "KAB",
+   "eigenvectors": 2,
+   "before": 0.0977,
+   "after": 0.0447
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Run-off-road",
+   "severity": "Total",
+   "eigenvectors": 2,
+   "before": 0.0975,
+   "after": 0.0397
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Pedestrian",
+   "severity": "Total",
+   "eigenvectors": 3,
+   "before": 0.097,
+   "after": 0.058
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Alcohol",
+   "severity": "Total",
+   "eigenvectors": 2,
+   "before": 0.094,
+   "after": 0.021
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Right turn",
+   "severity": "KAB",
+   "eigenvectors": 1,
+   "before": 0.0936,
+   "after": 0.0271
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Rollover",
+   "severity": "Total",
+   "eigenvectors": 1,
+   "before": 0.0906,
+   "after": 0.0507
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Angle",
+   "severity": "Total",
+   "eigenvectors": 2,
+   "before": 0.0814,
+   "after": 0.0546
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Single veh.",
+   "severity": "Total",
+   "eigenvectors": 2,
+   "before": 0.0803,
+   "after": 0.0413
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Pedestrian",
+   "severity": "Fatal",
+   "eigenvectors": 1,
+   "before": 0.076,
+   "after": 0.0333
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Bicycle",
+   "severity": "KAB",
+   "eigenvectors": 1,
+   "before": 0.0751,
+   "after": 0.0356
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Bicycle",
+   "severity": "KSI",
+   "eigenvectors": 1,
+   "before": 0.0726,
+   "after": 0.0358
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Run-off-road",
+   "severity": "KAB",
+   "eigenvectors": 1,
+   "before": 0.0705,
+   "after": 0.0189
+  },
+  {
+   "facility": "Segments",
+   "crash_type": "Left turn",
+   "severity": "KAB",
+   "eigenvectors": 1,
+   "before": 0.0586,
+   "after": 0.0287
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "All",
+   "severity": "KAB",
+   "eigenvectors": 8,
+   "before": 0.2184,
+   "after": 0.0614
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "All",
+   "severity": "Total",
+   "eigenvectors": 10,
+   "before": 0.2059,
+   "after": 0.0484
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Rear end",
+   "severity": "Total",
+   "eigenvectors": 7,
+   "before": 0.1933,
+   "after": 0.0934
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "All",
+   "severity": "KSI",
+   "eigenvectors": 7,
+   "before": 0.1887,
+   "after": 0.0682
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Rollover",
+   "severity": "Total",
+   "eigenvectors": 8,
+   "before": 0.1819,
+   "after": 0.0317
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Single veh.",
+   "severity": "Total",
+   "eigenvectors": 5,
+   "before": 0.1775,
+   "after": 0.0561
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Sideswipe",
+   "severity": "Total",
+   "eigenvectors": 5,
+   "before": 0.1679,
+   "after": 0.0771
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Alcohol",
+   "severity": "Total",
+   "eigenvectors": 8,
+   "before": 0.1638,
+   "after": 0.0491
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Rear end",
+   "severity": "KAB",
+   "eigenvectors": 6,
+   "before": 0.1609,
+   "after": 0.0765
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Angle",
+   "severity": "Total",
+   "eigenvectors": 5,
+   "before": 0.1426,
+   "after": 0.0831
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Bicycle",
+   "severity": "Total",
+   "eigenvectors": 5,
+   "before": 0.1422,
+   "after": 0.0363
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Right turn",
+   "severity": "Total",
+   "eigenvectors": 5,
+   "before": 0.1335,
+   "after": 0.0555
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Left turn",
+   "severity": "Total",
+   "eigenvectors": 4,
+   "before": 0.1187,
+   "after": 0.0762
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Rollover",
+   "severity": "KAB",
+   "eigenvectors": 3,
+   "before": 0.0904,
+   "after": 0.0495
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Rear end",
+   "severity": "KSI",
+   "eigenvectors": 2,
+   "before": 0.0844,
+   "after": 0.0422
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Head on",
+   "severity": "Total",
+   "eigenvectors": 3,
+   "before": 0.0778,
+   "after": 0.042
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Single veh.",
+   "severity": "KAB",
+   "eigenvectors": 1,
+   "before": 0.0739,
+   "after": 0.0491
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Left turn",
+   "severity": "KAB",
+   "eigenvectors": 2,
+   "before": 0.0714,
+   "after": 0.0367
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Pedestrian",
+   "severity": "KSI",
+   "eigenvectors": 2,
+   "before": 0.0691,
+   "after": 0.0351
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Alcohol",
+   "severity": "KAB",
+   "eigenvectors": 3,
+   "before": 0.0641,
+   "after": 0.0255
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Bicycle",
+   "severity": "KAB",
+   "eigenvectors": 1,
+   "before": 0.0534,
+   "after": 0.0409
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Alcohol",
+   "severity": "KSI",
+   "eigenvectors": 1,
+   "before": 0.0507,
+   "after": 0.0089
+  },
+  {
+   "facility": "Intersections",
+   "crash_type": "Pedestrian",
+   "severity": "KAB",
+   "eigenvectors": 1,
+   "before": 0.05,
+   "after": 0.034
+  }
+ ]
+}
