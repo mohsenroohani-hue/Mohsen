@@ -1,0 +1,8 @@
+# Large inputs / generated outputs
+data/
+out/
+_extracted/
+*.tar
+*.TIF
+*.tif
+__pycache__/
