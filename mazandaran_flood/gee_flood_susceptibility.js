@@ -10,8 +10,8 @@
  *   1. AOI                : FAO GAUL level-1 boundary of Mazandaran
  *   2. Flood inventory    : Global Flood Database (MODIS, 2000-2018)  or
  *                           Sentinel-1 SAR change detection for events you list
- *   3. Conditioning data  : USGS SRTM, USGS Landsat 8/9 (NDVI), MERIT Hydro,
- *                           CHIRPS, ESA WorldCover, OpenLandMap soil
+ *   3. Criteria (6)       : Snow (MODIS), Rain (CHIRPS), River (MERIT Hydro),
+ *                           NDVI (USGS Landsat 8/9), Slope + Topography (USGS SRTM)
  *   4. Samples            : balanced flood / non-flood points, spatial-block
  *                           train/test split (reduces optimistic bias of a
  *                           purely random split)
@@ -41,6 +41,7 @@ var CFG = {
 
   streamUpaKm2: 5,             // MERIT upstream-area threshold defining "streams"
   rainYears: [2000, 2023],
+  snowDates: ['2015-01-01', '2024-01-01'],   // MODIS daily snow cover period
   ndviYears: ['2019-01-01', '2024-12-31'],
 
   // Predictors to leave out after inspecting the VIF table (VIF > 5-10), e.g. ['elevation']
@@ -60,17 +61,13 @@ Map.centerObject(aoi, 8);
 Map.addLayer(ee.Image().byte().paint(aoiFc, 1, 2), {palette: 'black'}, 'Mazandaran', true);
 
 // ======================= 2. CONDITIONING FACTORS =============================
-// --- Terrain: USGS SRTM 1 arc-second -----------------------------------------
+// --- SLOPE + TOPOGRAPHY: USGS SRTM 1 arc-second --------------------------------
 var dem = ee.Image('USGS/SRTMGL1_003').select('elevation');
 var slope = ee.Terrain.slope(dem).rename('slope');                  // degrees
-var aspectRad = ee.Terrain.aspect(dem).multiply(Math.PI / 180);
-var flat = slope.lt(1);
-var northness = aspectRad.cos().where(flat, 0).rename('northness');
-var eastness = aspectRad.sin().where(flat, 0).rename('eastness');
 var curvature = dem.convolve(ee.Kernel.laplacian8({normalize: false}))
   .rename('curvature');                                              // Laplacian curvature (approx.)
 
-// --- Hydrology: MERIT Hydro (90 m) -------------------------------------------
+// --- RIVER (+ topographic wetness): MERIT Hydro (90 m) -------------------------
 var merit = ee.Image('MERIT/Hydro/v1_0_1');
 var upa = merit.select('upa');                                       // upstream area, km2
 var hand = merit.select('hnd').rename('hand');                       // height above nearest drainage, m
@@ -85,7 +82,14 @@ var streamDens = streams.unmask(0)
   .reduceNeighborhood({reducer: ee.Reducer.mean(), kernel: ee.Kernel.circle({radius: 2000, units: 'meters'})})
   .rename('stream_dens');
 
-// --- Rainfall: CHIRPS daily ---------------------------------------------------
+// --- SNOW: MODIS Terra daily snow cover (MOD10A1 v061) -------------------------
+// Share of valid (non-cloud, non-flag) days with NDSI snow cover > 40.
+var snowFreq = ee.ImageCollection('MODIS/061/MOD10A1')
+  .filterDate(CFG.snowDates[0], CFG.snowDates[1]).select('NDSI_Snow_Cover')
+  .map(function (img) { return img.gt(40).updateMask(img.lte(100)); })   // >100 = flag values
+  .mean().rename('snow_freq');
+
+// --- RAIN: CHIRPS daily ---------------------------------------------------------
 var y0 = CFG.rainYears[0], y1 = CFG.rainYears[1];
 var chirps = ee.ImageCollection('UCSB-CHG/CHIRPS/DAILY')
   .filterDate(y0 + '-01-01', (y1 + 1) + '-01-01').select('precipitation');
@@ -94,7 +98,7 @@ var rainAnnMax = ee.ImageCollection(ee.List.sequence(y0, y1).map(function (y) {
   return chirps.filter(ee.Filter.calendarRange(y, y, 'year')).max();
 })).mean().rename('rain_ann_max');                                   // mean annual-maximum daily rainfall
 
-// --- Vegetation: USGS Landsat 8/9 Collection 2 Level 2 NDVI -------------------
+// --- NDVI: USGS Landsat 8/9 Collection 2 Level 2 -------------------------------
 function landsatNdvi(img) {
   var qa = img.select('QA_PIXEL');
   var clear = qa.bitwiseAnd(1 << 1).eq(0)      // dilated cloud
@@ -109,31 +113,22 @@ var ndvi = ee.ImageCollection('LANDSAT/LC08/C02/T1_L2')
   .filterBounds(aoi).filterDate(CFG.ndviYears[0], CFG.ndviYears[1])
   .map(landsatNdvi).median().rename('ndvi');
 
-// --- Soil: OpenLandMap clay fraction (0 cm) -----------------------------------
-var clay = ee.Image('OpenLandMap/SOL/SOL_CLAY-WFRACTION_USDA-3A1A1A_M/v02')
-  .select('b0').rename('clay');
-
-// --- Land cover: ESA WorldCover 2021 as dummies (reference = tree + water + other)
+// --- Water mask (NOT a predictor): excluded from sampling and from the final map
 var lc = ee.ImageCollection('ESA/WorldCover/v200').first().select('Map');
-var lcVeg = lc.eq(20).or(lc.eq(30)).or(lc.eq(90)).rename('lc_veg');  // shrub, grass, wetland
-var lcCrop = lc.eq(40).rename('lc_crop');
-var lcBuilt = lc.eq(50).rename('lc_built');
-var lcBare = lc.eq(60).rename('lc_bare');
-
-// --- Water mask (excluded from sampling and from the final map) ---------------
 var gsw = ee.Image('JRC/GSW1_4/GlobalSurfaceWater').select('occurrence').unmask(0);
 var permWater = gsw.gt(90).or(lc.eq(80));
 var notWater = permWater.not();
 
-var allBands = ['elevation', 'slope', 'northness', 'eastness', 'curvature', 'twi', 'hand',
-  'dist_river', 'stream_dens', 'rain_mean', 'rain_ann_max', 'ndvi', 'clay',
-  'lc_veg', 'lc_crop', 'lc_built', 'lc_bare'];
+// Predictors = the six requested criteria (some have more than one band):
+//   Snow: snow_freq | Rain: rain_mean, rain_ann_max | River: dist_river, stream_dens, hand
+//   NDVI: ndvi | Slope: slope | Topography: elevation, curvature, twi
+var allBands = ['snow_freq', 'rain_mean', 'rain_ann_max', 'dist_river', 'stream_dens', 'hand',
+  'ndvi', 'slope', 'elevation', 'curvature', 'twi'];
 var bands = allBands.filter(function (b) { return CFG.drop.indexOf(b) === -1; });
 
 var predictors = ee.Image.cat([
-  dem.rename('elevation'), slope, northness, eastness, curvature, twi, hand,
-  distRiver, streamDens, rainMean, rainAnnMax, ndvi, clay,
-  lcVeg, lcCrop, lcBuilt, lcBare
+  snowFreq, rainMean, rainAnnMax, distRiver, streamDens, hand,
+  ndvi, slope, dem.rename('elevation'), curvature, twi
 ]).select(bands).toFloat();
 
 // Self-check: distance to river must be ~0 on stream pixels.
