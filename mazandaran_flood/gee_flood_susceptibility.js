@@ -211,6 +211,7 @@ print('Train / test points:', train.size(), test.size());
 var covArr = ee.Array(train.reduceColumns({
   reducer: ee.Reducer.covariance(), selectors: bands
 }).get('array'));
+print('Covariance matrix dimensions (expect [N, N], N = number of predictors):', covArr.length());
 var sd = covArr.matrixDiagonal().sqrt();
 var corr = covArr.divide(sd.matrixMultiply(sd.transpose()));
 var vif = corr.matrixInverse().matrixDiagonal().project([0]);
@@ -218,8 +219,10 @@ print('VIF per predictor (drop > 5-10 via CFG.drop):',
   ee.Dictionary.fromLists(bands, vif.toList()));
 
 // ============================= 5. MODELS =====================================
-// All learners are fitted in REGRESSION mode on the 0/1 label, so each returns a
-// flood-likelihood score in [0, 1] that can be averaged across models.
+// RF, GBT and CART are fitted in REGRESSION mode on the 0/1 label; the SVM is an
+// epsilon-SVR left in its default mode (the EE output-mode table lists no
+// REGRESSION mode for libsvm). Every model therefore returns a flood-likelihood
+// score that is clamped to [0, 1] and can be averaged across models.
 var learners = {
   rf: ee.Classifier.smileRandomForest({numberOfTrees: 500, minLeafPopulation: 2, bagFraction: 0.632, seed: CFG.seed}),
   gbt: ee.Classifier.smileGradientTreeBoost({numberOfTrees: 300, shrinkage: 0.05, samplingRate: 0.7,
@@ -230,8 +233,8 @@ var learners = {
 var names = Object.keys(learners);
 var models = {};
 names.forEach(function (k) {
-  models[k] = learners[k].setOutputMode('REGRESSION')
-    .train({features: train, classProperty: 'flood', inputProperties: bands});
+  var learner = (k === 'svm') ? learners[k] : learners[k].setOutputMode('REGRESSION');
+  models[k] = learner.train({features: train, classProperty: 'flood', inputProperties: bands});
 });
 
 print('Random Forest variable importance:', ee.Dictionary(models.rf.explain().get('importance')));
@@ -243,6 +246,9 @@ names.forEach(function (k) {
     return f.set('p_' + k, ee.Number(f.get('p_' + k)).max(0).min(1));
   });
 });
+
+print('Check: SVM scores should be continuous, not just 0/1:',
+  scored.limit(10).select(['flood', 'p_rf', 'p_gbt', 'p_svm', 'p_cart'], null, false));
 
 function aucOf(fc, prop) {
   var P = fc.filter(ee.Filter.eq('flood', 1)), N = fc.filter(ee.Filter.eq('flood', 0));

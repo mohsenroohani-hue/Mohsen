@@ -12,7 +12,7 @@ ensemble ("consensus") of four machine-learning models.
 | Client-side JS logic | Smoke-tested against a stub of the `ee` API (catches undefined names, bad array handling). |
 | **Execution in Earth Engine** | **Not done.** No EE client or credentials were available where this was written. No map, AUC, or flood count has been produced. |
 | **Literature grounding** | **Not done.** The Consensus paper-search tool hit its free-usage limit (resets 1 Dec). The six criteria are the ones you specified; the dataset and band choices for each are mine and have no citations. |
-| Dataset ids and API usage | Being checked against the official GEE docs; see the note at the end of this file once that is done. |
+| Dataset ids and API usage | Reviewed by a subagent against search summaries of the official GEE docs (the docs site itself was unreachable). All dataset ids and bands checked were confirmed. One fix applied: the SVM is no longer put in REGRESSION mode. That fix, and a few other items, are still unconfirmed in a live run (see first-run checks). |
 
 ## How to run
 
@@ -50,8 +50,9 @@ GEE or USGS-hosted data. Tell me if you meant something else.
    flood cell, permanent water excluded.
 3. **Validation split** – whole ~10 km blocks go to train or test, which is stricter than a random
    split and gives less optimistic AUC.
-4. **Models** – Random Forest, Gradient Tree Boost, SVM (RBF, ε-SVR), CART. All are fitted in
-   regression mode on the 0/1 label, so each yields a [0,1] score.
+4. **Models** – Random Forest, Gradient Tree Boost, SVM (RBF, ε-SVR), CART, all trained on the 0/1
+   label. RF, GBT and CART use regression output mode; the SVM stays in its default mode. Scores are
+   clamped to [0,1] before averaging.
 5. **Consensus** – weighted mean score, with weight = max(AUC − 0.5, 0) normalised to 1.
    Also produced: a count of models voting "high" (>0.5) and the inter-model SD as an uncertainty layer.
 6. **Classes** – equal-interval breaks at 0.2/0.4/0.6/0.8. Because training is balanced 1:1, scores are
@@ -65,7 +66,14 @@ GEE or USGS-hosted data. Tell me if you meant something else.
 - `Check dist_river on stream pixels` prints ≈ 0. If not, `fastDistanceTransform` semantics differ
   from what I assumed, and `dist_river` must be recomputed.
 - The VIF table: drop predictors with VIF > 5–10 using `CFG.drop` (elevation, HAND and TWI are the likely culprits).
-- Regression-mode `smileGradientTreeBoost`, `libsvm` (EPSILON_SVR) and `smileCart`: confirm they train without errors.
+- Models train without errors. Regression-mode `smileGradientTreeBoost` was seen only in a third-party example.
+  The printout "SVM scores should be continuous" must show non-integer `p_svm` values; if it shows only 0/1, the
+  SVR output is being rounded and the SVM should be dropped from `learners` or replaced.
+- `Covariance matrix dimensions` prints `[N, N]` with N = number of predictors. If `reduceColumns` rejects several
+  selectors, compute the VIF from the exported sample table instead.
+- Flood-grid resolution: `gfd.first().select('flooded').projection().nominalScale()`. Sources disagreed (250 m vs 30 m);
+  harmless, because the script resamples to 250 m.
+- `FAO/GAUL/2015/level1` still works. A newer `FAO/GAUL/2025/level1` uses `GAUL0_NAME`/`GAUL1_NAME`, so the filters would need renaming if you switch.
 - AUC values look plausible (not ≈ 1.0, which would indicate leakage or a trivially separable inventory).
 
 ## Known limitations
